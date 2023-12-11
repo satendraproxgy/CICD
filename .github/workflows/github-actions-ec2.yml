@@ -34,6 +34,5 @@ jobs:
             sudo apt-get install -y apache2
             sudo systemctl start apache2
             sudo systemctl enable apache2
-            cd /var/www/html/
-            sudo git clone https://github.com/satendraproxgy/CICD.git
+            cd /var/www/html/CICD/
             sudo git pull origin master 

@@ -1,14 +1,883 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Title</title>
- </head>
-<body>
-  <h1>WelCome To DevOps Of Proxgy Era</h1>
-</body>
-</html>
+<!DOCTYPE html><html><head>
+    <title>Proxgy</title>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Proxgy">
+    <meta name="description" content="Proxgy is developing a turn key ecosystem which incorporates framework for key global industries.">
+    <meta name="keywords" content="SmartHat,Lockator,Sleefe,AudioCube,AirHat,BirdBox,Worker Safety, SmartLock, Worker Monitering, Remote Assistance,">
+    
+    <meta name="IoT Based smart protective gear, wearables and safety products" content="Proxgy is providing the best Iot Based smart protective wearable gear, smart helmet, sleefe, airhat and lockator(GPS e-Lock).">
+    
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <!-- Mobile Stuff -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Proxgy - Homepage">
+    <!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png"> -->
+
+    <!-- Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Proxgy - Homepage">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+
+    
+
+    <!-- General Tags -->
+    <meta name="theme-color" content="#000000">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&amp;display=swap" rel="stylesheet">
+
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/responsive_home1.css" rel="stylesheet">
+    
+  </head>
+
+
+  <body class="transition_body">
+    <div id="preloader" class="desktop_view fixed w-full h-full top-0 left-0 bg-[#F0F0F0] z-[9999] pointer-events-none">
+      <div class="w-full h-full flex justify-center items-center relative">
+        <div class="loader--container absolute aspect-square w-[50px] xl:w-[150px]">
+          <img src="images/loader-line.png" alt="Proxgy" title="Proxgy" class="queue__assets absolute object-contain w-full h-full object-center loader--line">
+          <img src="images/loader-logo.png" alt="Proxgy" title="Proxgy" class="queue__assets absolute object-contain w-full h-full object-center loader--logo">
+        </div>
+      </div>
+    </div>
+
+   
+    <header class="nav-down" id="navbarSupportedContent1">
+      <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="images/logo.png" alt="proxgy" title="Proxgy" width="30" height="100%">
+          </a>
+          <button class="nav-link-mobile mobileonly" type="button" onclick="productmenu_mobile()">Products <img alt="Proxgy" title="Proxgy" src="images/dropdown_arrow.svg"></button>
+  
+                  <button class="navbar-toggler" type="button" onclick="myFunction()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-center" id="navbarSupportedContentMobile">
+            <ul class="navbar-nav mr-40px">
+              <li class="nav-item navItemFont">
+                <a class="nav-link " href="/products/smarthat.html" title="SmartHat ®">SmartHat <sup>®</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/sleefe.html" title="Sleefe ®">Sleefe <sup>®</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/lockator.html" title="Lockator ™">Lockator <sup class="tm_sup">™</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/audiocube.html" title="AudioCube ™">AudioCube <sup class="tm_sup">™</sup> </a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/airhat.html" title="AirHat ®">AirHat <sup>®</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/birdbox.html" title="BirdBox ®">BirdBox <sup>™</sup></a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="navbar-toggler navbar-toggler-icon_desktop" type="button" onclick="open_sub_category()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+         
+          <div class="collapse navbar-collapse mobileonly" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <ul class="navbar-nav">
+              <li class="nav-item navItemFont">
+                <a class="nav-link " href="/products/aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/careers.html">Join Us</a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+              </li>
+            </ul>
+  
+            <button class="navbar-toggler navbar-toggler-icon_desktop" type="button" onclick="open_sub_category()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          
+          </div>
+        </div>
+      </nav>
+  
+      <div id="navbarSupportedContentsubcategory" class="sub_category">
+        <ul class="navbar-nav">
+          <li class="nav-item navItemFont">
+            <a class="nav-link " href="products/aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item navItemFont">
+            <a class="nav-link" href="products/careers.html">Join Us</a>
+          </li>
+          <li class="nav-item navItemFont">
+            <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+          </li>
+        </ul>
+  
+      </div>
+    </header>
+
+    <div class="desktop_view">
+      <div id="overlayContentDesktop" onclick="remove_sub_category_desktop()" class="overlay_desktop"></div>
+      </div>
+      <div class="mobile_view">
+        <div id="overlayContentMobile" onclick="remove_sub_category()" class="overlay_mobile"></div>
+        </div>
+    <main>
+      <div class="landing--home desktop_view">
+        <div class="landing--container relative h-screen overflow-y-hidden">
+          <section id="firstTriggerRef" class="section relative w-full bg-[#F0F0F0] lg:bg-[#FAFAFA]">
+            <div class="flex h-full w-full flex-col lg:flex-row">
+              <div class="flex h-full w-full flex-1 flex-col items-start justify-center lg:w-1/2 lg:flex-none px-8 pt-[calc(0.75rem+40px)] pb-12 lg:px-12 lg:!py-12 2xl:px-16">
+                <h1>
+                  <div class="mb-1 text-[10px] leading-[12px] text-[#333333] lg:mb-2 lg:text-sm lg:leading-4">
+                    Initializing...
+                  </div>
+                  <div class="text-[1.5rem] font-medium uppercase leading-[1.6875rem] text-royalnight lg:text-[2.5rem] lg:leading-[3rem]" )}="">
+                    <div class="headingTexts relative table h-[27px] text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5"></div>
+                    <div class="headingTexts relative table h-[27px] text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5"></div>
+                    <div class="headingTexts relative table h-[27px] text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5"></div>
+                    <div class="headingTexts relative table h-[27px] text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5"></div>
+                    <div class="headingTexts relative table h-[27px] text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5"></div>
+                    <div id="firstTitle2Ref" class="mt-1.5 font-normal text-[#333333] opacity-0 lg:mt-2.5">
+                      human &amp; assets
+                    </div>
+                  </div>
+                </h1>
+              </div>
+              <div class="flex h-full w-full flex-1 flex-col items-start justify-center lg:w-1/2 px-8 pt-3 pb-12 lg:px-0 lg:!py-0" )}="">
+                <div class="relative aspect-square min-h-full w-full overflow-hidden rounded-[10px] lg:rounded-none">
+                  <video src="media/landing-banner.mp4" loop="" muted="" autoplay="" class="queue__assets h-full w-full object-cover object-center"></video>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="secondTriggerRef" class="section relative w-full overflow-hidden bg-[#FAFAFA]">
+            <div class="mx-auto flex h-full w-full flex-col items-center justify-center gap-y-12 px-8 py-[85px] text-center lg:px-0 lg:py-[120px] xl:w-[800px] 3xl:w-[1028px] 3xl:gap-y-20 secondsection">
+              <h2 id="secondTitleRef" class="translate-y-20 top-0 text-base font-thin leading-5 text-mineshaft opacity-0 lg:text-[1.5rem] lg:leading-[3rem] 2xl:text-[2.5rem] secondsection__title_top">
+                <strong class="font-bold text-cerulean">PROXGY <sup>®</sup> </strong>
+                <span>
+                  is developing a turn key ecosystem which incorporates
+                </span>
+              </h2>
+              <div class="grid w-full grid-cols-4odd-mobile grid-rows-3odd-mobile place-items-stretch gap-x-1.5 xl:grid-cols-4odd xl:grid-rows-2odd xl:gap-x-5 secondsection__grid">
+                <div class="secondTilesRef group relative row-span-2 flex h-[calc(100%-6px)] translate-y-40 overflow-hidden rounded-[10px] bg-[#DDE2E3] opacity-0 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/offline-to-online.png" alt="Sleefe" title="Sleefe" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-end">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      offline to online
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-3 hidden h-[calc(100%-6px)] translate-y-40 overflow-hidden rounded-[10px] opacity-0 xl:col-span-1 xl:col-start-2 xl:flex xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/project-management.png" alt="SmartHat ®" title="SmartHat ®" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-start">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      project management
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-2 flex h-[calc(100%-6px)] translate-y-40 overflow-hidden rounded-[10px] opacity-0 xl:col-span-2 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/screen.png" alt="Proxgy::Search" title="Proxgy :: Search" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                </div>
+                <div class="secondTilesRef group relative flex h-[calc(100%-6px)] translate-y-40 overflow-hidden rounded-[10px] opacity-0 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/smart-lock.png" alt="Lockator" title="Lockator ™" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                </div>
+                <div class="secondTilesRef group relative col-span-3 flex h-[calc(100%-6px)] translate-y-40 overflow-hidden rounded-[10px] opacity-0 xl:col-span-1 xl:col-start-2 xl:hidden xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/project-management.png" alt="SmartHat ®" title="SmartHat ®" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-start">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      project management
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-2 flex translate-y-40 overflow-hidden rounded-[10px] opacity-0 xl:col-span-2 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/financial-roi.png" alt="AudioCube" title="AudioCube ™" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-end">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      financial roi
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-2 flex translate-y-40 overflow-hidden rounded-[10px] opacity-0 xl:col-span-2 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/safety.png" alt="SmartHat ®" title="SmartHat ®" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-end">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      safety
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <h2 id="secondTitle2Ref" class="translate-y-20 text-base font-thin leading-5 text-mineshaft opacity-0 lg:text-[1.5rem] lg:leading-[3rem] 2xl:text-[2.5rem] secondsection__title_bottom">
+                <span>framework for key </span>
+                <strong class="font-bold text-cerulean">
+                  global industries.
+                </strong>
+              </h2>
+            </div>
+          </section>
+
+          <section class="section relative w-full">
+
+            <div class="award_img_dashboard" style="display: flex;">
+              <img src="images/idda.png" alt="Sleefe ®" title="Sleefe ®" class="smarthat_award_img" style="margin-right:20px ;">
+              <img src="images/CES2024_InnovationAwardHonoree.png" alt="Sleefe ®" title="Sleefe ®" class="smarthat_award_img">
+            </div>
+           
+
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-20 opacity-0 font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  SmartHat <sup>®</sup>
+                </h3>
+                <div class="block--thumb translate-y-20 opacity-0 relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                  <img src="images/product.webp" alt="SmartHat ®" title="SmartHat ®" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                  <a href="/products/smarthat.html" class="block--button  translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Explore
+                  </a>
+                  <a href="/products/contactus.html" class="block--button translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Request Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section relative w-full">
+            <img src="images/lexus_design_award.png" alt="Sleefe ®" title="Sleefe ®" class="award_img_dashboard">
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-20 opacity-0 font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  Sleefe <sup>®</sup>
+                </h3>
+                <div class="block--thumb translate-y-20 opacity-0 relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                
+                  <img src="images/product.png" alt="Sleefe ®" title="Sleefe ®" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                  <a href="/products/sleefe.html" class="block--button  translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Explore
+                  </a>
+                  <a href="/products/contactus.html" class="block--button translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Request Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section relative w-full">
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-20 opacity-0 font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  Lockator <sup>™</sup> 
+                </h3>
+                <div class="block--thumb translate-y-20 opacity-0 relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                  <img src="images/product_1.png" alt="Lockator ™" title="Lockator ™" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                <a href="/products/lockator.html" class="block--button  translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                Explore
+              </a>
+                  <a href="/products/contactus.html" class="block--button translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Request Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="desktop_view section relative w-full">
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-20 opacity-0 font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  AudioCube  <sup>™</sup> 
+                </h3>
+                <div class="block--thumb translate-y-20 opacity-0 relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                  <img src="images/product_1.webp" alt="AudioCube ™" title="AudioCube ™" class="queue__assets audiobox_home object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                  <a href="/products/audiocube.html" class="block--button  translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Explore
+                  </a>
+                  <a href="/products/contactus.html" class="block--button translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Request Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section relative w-full">
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-20 opacity-0 font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  AirHat <sup>®</sup> 
+                </h3>
+                <div class="block--thumb translate-y-20 opacity-0 relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                  <img src="images/product_desktop1.webp" alt="Airhat" title="Airhat ®" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons  relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                <a href="/products/airhat.html" class="block--button  translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                Explore
+              </a>
+                 
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section relative w-full">
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col pb-30 justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-20 opacity-0 font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  BirdBox  <sup>™</sup> 
+                </h3>
+                <div class="block--thumb translate-y-20 opacity-0 relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                  <img src="images/bird-box_mobile.png" alt="Birdbox" title="Birdbox ™" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                <a href="/products/birdbox.html" class="block--button  translate-y-20 opacity-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                Explore
+              </a>
+                 
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+<!-- Start Video Section Mobile -->
+      <section id="firstTriggerRef" class="section relative w-full bg-[#F0F0F0] lg:bg-[#FAFAFA] mobile_view">
+      <div class="flex h-full w-full flex-col lg:flex-row">
+        <div class="flex h-full w-full flex-1 flex-col items-start justify-center lg:w-1/2 lg:flex-none px-8 pt-80 pb-12 lg:px-12 lg:!py-12 2xl:px-16">
+          <h1>
+            <div class="mb-1 text-[10px] leading-[12px] text-[#333333] lg:mb-2 lg:text-sm lg:leading-4">
+              Initializing...
+            </div>
+            <div class="text-[1.5rem] font-medium uppercase leading-[1.6875rem] text-royalnight lg:text-[2.5rem] lg:leading-[3rem]" )}="">
+              <div class="headingTexts relative table h-35px text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5">SAFE //</div>
+              <div class="headingTexts relative table h-35px text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5">CONNECTED // </div>
+              <div class="headingTexts relative table h-35px text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5">EFFICIENT//</div>
+              <div class="headingTexts relative table h-35px text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5">RELIABLE //</div>
+              <div class="headingTexts relative table h-35px text-royalnight after:absolute after:left-full after:bottom-1 after:h-full after:w-[0.5em] after:animate-blink after:border-solid after:border-royalnight after:text-royalnight lg:h-12 lg:after:bottom-2.5">HARDWARE ENHANCED_ </div>
+              <div class="firstTitle2Ref">
+                human &amp; assets
+              </div>
+            </div>
+          </h1>
+        </div>
+        <div class="flex h-full w-full flex-1 flex-col items-start justify-center lg:w-1/2 px-8 pt-3 pb-12 lg:px-0 lg:!py-0" )}="">
+          <div class="relative aspect-square min-h-full w-full overflow-hidden rounded-[10px] lg:rounded-none">
+            <video src="media/landing-banner.mp4" loop="" muted="" autoplay="" class="queue__assets h-full w-full object-cover object-center"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Video Section Mobile -->
+
+    <!--Start 2nd Section Mobile -->
+    <section id="secondTriggerRef" class="mobile_view section relative w-full overflow-hidden bg-[#FAFAFA]">
+            <div class="mx-auto flex h-full w-full flex-col items-center justify-center gap-y-12 px-8 py-[85px] text-center lg:px-0 lg:py-[120px] xl:w-[800px] 3xl:w-[1028px] 3xl:gap-y-20 secondsection">
+              <h2 id="secondTitleRef" class="translate-y-0 text-base font-thin leading-5 text-mineshaft  lg:text-[1.5rem] lg:leading-[3rem] 2xl:text-[2.5rem] secondsection__title_top">
+                <strong class="font-bold text-cerulean">PROXGY <sup>®</sup> </strong>
+                <span>
+                  is developing a turn key ecosystem which incorporates
+                </span>
+              </h2>
+              <div class="grid w-full grid-cols-4odd-mobile grid-rows-3odd-mobile place-items-stretch gap-x-1.5 xl:grid-cols-4odd xl:grid-rows-2odd xl:gap-x-5 secondsection__grid">
+                <div class="secondTilesRef group relative row-span-2 flex h-[calc(100%-6px)] translate-y-0 overflow-hidden rounded-[10px] bg-[#DDE2E3]  xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/offline-to-online.png" alt="Sleefe ®" title="Sleefe ®" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-end">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      offline to online
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-3 hidden h-[calc(100%-6px)] translate-y-5 overflow-hidden rounded-[10px]  xl:col-span-1 xl:col-start-2 xl:flex xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/project-management.png" alt="SmartHat ®" title="SmartHat ®" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-start">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      project management
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-2 flex h-[calc(100%-6px)] translate-y-5 overflow-hidden rounded-[10px]  xl:col-span-2 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/screen.png" alt="Proxgy Search" title="Proxgy Search" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                </div>
+                <div class="secondTilesRef group relative flex h-[calc(100%-6px)] translate-y-5 overflow-hidden rounded-[10px]  xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/smart-lock.png" alt="Lockator ™" title="Lockator ™" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                </div>
+                <div class="secondTilesRef group relative col-span-3 flex h-[calc(100%-6px)] translate-y-5 overflow-hidden rounded-[10px]  xl:col-span-1 xl:col-start-2 xl:hidden xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/project-management.png" alt="SmartHat ®" title="SmartHat ®" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-start">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      project management
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-2 flex translate-y-5 overflow-hidden rounded-[10px]  xl:col-span-2 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/financial-roi.png" alt="AudioCube ™" title="AudioCube ™" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-end">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      financial roi
+                    </h4>
+                  </div>
+                </div>
+                <div class="secondTilesRef group relative col-span-2 flex translate-y-5 overflow-hidden rounded-[10px]  xl:col-span-2 xl:h-[calc(100%-20px)] secondsection__grid_tile">
+                  <img src="images/safety.png" alt="SmartHat ®" title="SmartHat ®" class="queue__assets h-full w-full origin-center scale-100 object-cover object-center transition duration-1000 lg:group-hover:scale-125">
+                  <div class="absolute top-0 left-0 flex h-full w-full p-1.5 text-left xl:p-3 items-end">
+                    <h4 class="text-[10px] font-bold uppercase leading-[12px] leading-[30px] text-white xl:text-2xl">
+                      safety
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <h2 id="secondTitle2Ref" class="translate-y-0 text-base font-thin leading-5 text-mineshaft  lg:text-[1.5rem] lg:leading-[3rem] 2xl:text-[2.5rem] secondsection__title_bottom">
+                <span>framework for key </span>
+                <strong class="font-bold text-cerulean">
+                  global industries.
+                </strong>
+              </h2>
+            </div>
+          </section>
+            <!-- End 2nd Section Mobile -->
+
+
+<!-- Start Proy Section Mobile -->
+
+          <section class="mobile_view section relative w-full">
+            
+            <div class="award_img_dashboard" style="display: flex;">
+
+              <img src="images/idda.png" alt="Sleefe ®" title="Sleefe ®" class="smarthat_award_img" style="margin-right:20px ;">
+
+              <img src="images/CES2024_InnovationAwardHonoree.png" alt="Sleefe ®" title="Sleefe ®" class="smarthat_award_img">
+
+        
+            </div>
+
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-0  font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  SmartHat <sup class="tx14">®</sup>
+                </h3>
+                <div class="block--thumb translate-y-0  relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                  <img src="images/product.webp" alt="SmartHat ®" title="SmartHat ®" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                  <a href="/products/smarthat.html" class="block--button button_with_bg  translate-y-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Explore
+                  </a>
+                  <a href="/products/contactus.html" class="block--button translate-y-0 lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Request Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- End Proy Section Mobile -->
+
+<!-- Start Sleefe Section Mobile -->
+          <section class="mobile_view section relative w-full">
+            <img src="images/lexus_design_award.png" alt="Sleefe ®" title="Sleefe ®" class="award_img_dashboard">
+            <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+              <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+                <h3 class="block--title translate-y-0  font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+                  Sleefe <sup>®</sup>
+                </h3>
+                <div class="block--thumb translate-y-0  relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+                  <img src="images/product.png" alt="Sleefe ®" title="Sleefe ®" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+                </div>
+                <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+                  <a href="/products/sleefe.html" class="block--button button_with_bg  translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Explore
+                  </a>
+                  <a href="/products/contactus.html" class="block--button translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+                    Request Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+<!-- End Sleefe Section Mobile -->
+
+<!-- Start Lockator Section Mobile -->
+
+<section class="mobile_view section relative w-full">
+  <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+    <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+      <h3 class="block--title translate-y-0  font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+        Lockator <sup>™</sup>
+      </h3>
+      <div class="block--thumb translate-y-0  relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+        <img src="images/product_1.png" alt="Lockator ™" title="Lockator ™" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+      </div>
+      <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+      <a href="/products/lockator.html" class="block--button button_with_bg  translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+      Explore
+    </a>
+        <a href="/products/contactus.html" class="block--button translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+          Request Demo
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- End Lockator Section Mobile -->
 
 
 
+<!-- Start Sounbox Section Mobile -->
+
+<section class="mobile_view section relative w-full">
+  <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+    <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+      <h3 class="block--title translate-y-0  font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+      AudioCube <sup>™</sup>
+      </h3>
+      <div class="block--thumb translate-y-0  relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+        <img src="images/product_1.webp" alt="AudioCube" title="AudioCube ™" style="padding: 25px;" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+      </div>
+      <div class="block--buttons relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+        <a href="/products/audiocube.html" class="block--button button_with_bg  translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+          Explore
+        </a>
+        <a href="/products/contactus.html" class="block--button translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm hover:bg-[#212121] hover:text-[#F0F0F0] transition ease-out-quint duration-300">
+          Request Demo
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Soundbox Section Mobile -->
+
+<!-- Start Airhat Section Mobile -->
+
+<section class="mobile_view section relative w-full">
+  <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+    <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+      <h3 class="block--title translate-y-0  font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+        AirHat <sup>®</sup>
+      </h3>
+      <div class="block--thumb translate-y-0  relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+        <img src="images/product_2.webp" alt="Airhat" title="Airhat ®" class="queue__assets object-contain object-center lg:object-bottom w-full h-full absolute">
+      </div>
+      <div class="block--buttons   relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+        <a href="/products/airhat.html" class=" disable block--button button_with_bg  translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm  transition ease-out-quint duration-300">
+         Explore
+        </a>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- End Airhat Section Mobile -->
+
+
+<!-- Start Birdbox Section Mobile -->
+
+<section class="mobile_view section relative w-full">
+  <div class="explore--section relative top-0 w-full h-full overflow-hidden">
+    <div class="flex flex-col justify-between items-center text-center w-full h-full odd:bg-white-smoke even:bg-[#F0F0F0] xl:!bg-[#F0F0F0] px-8 lg:px-12 2xl:px-16 py-16 lg:py-[100px]">
+      <h3 class="block--title translate-y-0  font-semibold lg:font-medium text-4xl lg:text-[2.5rem]">
+        BirdBox <sup>™</sup>
+      </h3>
+      <div class="block--thumb flex justify-center translate-y-0  relative w-full aspect-square lg:aspect-none max-h-[700px] lg:h-[700px] overflow-hidden scale-150 lg:scale-100">
+        <img src="images/bird-box_mobile.png" alt="Birdbox ™" title="Birdbox ™" class="queue__assets  birdbox_img object-contain object-center lg:object-bottom w-full h-full absolute">
+      </div>
+      <div class="mt_30 block--buttons  relative flex flex-col lg:flex-row lg:justify-center w-full items-center gap-5 lg:gap-x-[42.55px]">
+        <a href="/products/birdbox.html" class=" disabled block--button button_with_bg translate-y-0  lg:bg-transparent w-[290px] lg:w-[180px] rounded-[5px] border-[1px] border-[#212121] text-[#212121] bg-transparent text-center py-3 font-semibold lg:font-bold text-xs lg:text-sm  transition ease-out-quint duration-300">
+          Explore
+        </a>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Birdbox Section Mobile -->
+
+      <section class="desktop_view laptop--section relative w-full overflow-hidden">
+        <div class="relative top-0 h-screen w-full">
+          <div class="laptop--container relative h-full w-full">
+            <div id="laptop__frames" class="absolute top-0 h-full w-full"></div>
+            <div id="uvci" class="absolute left-0 bottom-0 flex h-full w-full flex-row gap-x-20">
+              <div class="block--uvci flex h-full w-full flex-col items-end justify-center px-8 font-bold text-[#283891] lg:px-14 xl:text-4xl">
+                <div class="py-10 text-right lg:py-16 3xl:py-24">
+                  <div>UVCI<sup>®</sup></div>
+                  <p class="font-medium text-[#5F5F5F] xl:text-2xl mt_p1">
+                    Universal Video Conferencing Identifier
+                  </p>
+                </div>
+                <div class="py-10 text-right lg:py-16 3xl:py-24 stream_secroll_sec">
+                 <div class="flex justify-end "><div class=" stream_view_left">StreamScroll<sup>®</sup></div> <div class=" scroll_view_right ">ScrollView<sup>®</sup></div></div> 
+
+                 <p class="font-medium text-[#5F5F5F] xl:text-2xl mt_p1 descerip_txt">
+                  Live Video Search Augmentation &amp; Video Artificial Intelligence
+                </p>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute typeeffect_ani top-16 left-1/2 flex -translate-x-1/2 text-sm font-medium leading-4 lg:top-28 lg:text-xl lg:leading-6 xl:text-[40px] xl:leading-[3rem]">
+          <div class="text-royalnight ">
+            <span class="typed-text"></span>
+          </div>
+          <div class="text-[#212121]">.assist.live</div>
+        </div>
+      </section>
+
+
+
+      <section class=" relative w-full mobile_view h-screen">
+        <div class=" laptop_sec_mobile flex  w-full flex-row justify-center gap-x-20 xl:h-screen">
+        <div class="text_sec_live">
+          <div class="text_sec_live_description">
+          <div id="fadetext1" class="absolute"><span>adani</span>.assist.live</div>
+          <div id="fadetext2" class="absolute"><span>hyva</span>.assist.live</div>
+          <div id="fadetext3" class="absolute"><span>fleetrobo</span>.assist.live</div>
+          <div id="fadetext4" class="absolute"><span>frakoin</span>.assist.live</div>
+        </div>
+        </div>
+          <div class="uvci">
+            <div>
+              <div class="uvci_txt">UVCI<sup>®</sup></div>
+              <p class="uvci_txt_description">
+                Universal Video Conferencing Identifier
+              </p>
+            </div>
+            <div>
+              <div class="uvci_txt mt10">ScrollView<sup>®</sup> &amp; StreamScroll<sup>®</sup></div>
+              <p class="uvci_txt_description">
+                Live video search augmentation &amp; video artificial intelligence
+              </p>
+            </div>
+           
+          </div>
+
+            <div class="relative aspect-video w-full overflow-hidden">
+              <img src="images/laptop_opening.webp" alt="Proxgy" title="Proxgy" type="image/webp" class="queue__assets h-full w-full object-contain object-center">
+            </div>
+         
+        </div>
+      </section>
+
+      <section class="relative w-full desktop_view">
+        <div class="flex h-[50vh] w-full flex-row justify-center gap-x-20 xl:h-screen">
+          <div class="flex w-full items-center px-14 lg:px-20 2xl:px-44">
+            <div class="relative aspect-video w-full overflow-hidden">
+              <img src="images/flow-chart.webp" alt="Proxgy" title="Proxgy" class="queue__assets h-full w-full object-contain object-center">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="relative w-full mobile_view">
+        <div class=" chart_proxgy flex  w-full flex-row justify-center gap-x-20 xl:h-screen">
+          <div class="flex w-full items-center px-5 lg:px-20 2xl:px-44">
+            <div class="relative overflow-hidden">
+              <img src="images/flow-chart-mobile.webp" alt="Proxgy" title="Proxgy" class="queue__assets h-full w-full object-contain object-center">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="desktop_view client_bottom_sec relative flex w-full lg:h-screen xl:overflow-hidden" id="afRef">
+        <div class="absolute top-0 h-[50vh] w-full" id="streamRef">
+          <div class="flex h-full w-full flex-col items-center justify-center px-14 lg:px-20 2xl:px-44">
+          </div>
+        </div>
+        <div class="relative flex h-full w-1/2 flex-col justify-center py-12 pl-14 pr-0 lg:px-20 lg:py-[100px] 2xl:px-44" id="afTextCRef">
+          <div class="afTextRef mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+            Frictionless user experience for on field employees and assets
+          </div>
+          <div class="afTextRef mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+            Seamless offline to online framework for industries
+          </div>
+          <div class="afTextRef mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+            Modular industry specific devices solving real world problems
+          </div>
+          <div class="afTextRef mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+            Industry specific SAAS pipeline for on ground intelligence
+            coordination &amp; analytics
+          </div>
+        </div>
+        <div class="absolute bottom-0 right-0 h-[200px] w-full xl:h-full" id="afImgCRef">
+          <div class="afImageRef afImageRef--1 absolute bottom-0 right-0 flex h-full transform-gpu items-end justify-end">
+            <img src="images/1.png" alt="Frictionless user experience for on field employees and assets" title="Frictionless user experience for on field employees and assets" class="queue__assets max-h-full transform-gpu object-contain object-bottom">
+          </div>
+          <div class="afImageRef afImageRef--2 absolute bottom-0 right-0 flex h-full transform-gpu items-end justify-end">
+            <img src="images/2.png" alt="Seamless offline to online framework for industries" title="Seamless offline to online framework for industries" class="queue__assets max-h-full transform-gpu object-contain object-bottom">
+          </div>
+          <div class="afImageRef afImageRef--3 absolute bottom-0 right-0 flex h-full transform-gpu items-end justify-end">
+            <img src="images/3.png" alt="Modular industry specific devices solving real world problems" title="Modular industry specific devices solving real world problems" class="queue__assets max-h-full transform-gpu object-contain object-bottom">
+          </div>
+          <div class="afImageRef afImageRef--4 absolute bottom-0 right-0 flex h-full transform-gpu items-end justify-end">
+            <img src="images/4.png" alt="Industry specific SAAS pipeline for on ground intelligence
+            coordination &amp; analytics" title="Industry specific SAAS pipeline for on ground intelligence
+            coordination &amp; analytics" class="queue__assets max-h-full transform-gpu object-contain object-bottom">
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section class="mobile_view visuals_sec_mob relative flex w-full lg:h-screen ">
+     
+      <div class="left_sec relative flex h-full w-40 flex-col justify-center py-12 pl24 pr-0 lg:px-20 lg:py-[100px] 2xl:px-44">
+        <div class=" mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+          Frictionless user experience for on field employees and assets
+        </div>
+        <div class=" mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+          Seamless offline to online framework for industries
+        </div>
+        <div class=" mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+          Modular industry specific devices solving real world problems
+        </div>
+        <div class=" mb-10 text-sm font-light leading-[17px] lg:font-[200] lg:last:mb-0 xl:text-[26px] xl:leading-[36px] 2xl:leading-[38px] 3xl:mb-16 3xl:text-[32px] lastsection__text">
+          Industry specific SAAS pipeline for on ground intelligence
+          coordination &amp; analytics
+        </div>
+      </div>
+      <div class="bottom_homepage_img ">
+      
+      <img src="images/Visuals.webp" alt="Proxgy" title="Proxgy" type="image/webp" class="home_page_footer_img ">
+       
+       
+      </div>
+    </section>
+    </main>
+     <footer class="desktop_view  overflow-hidden bg-[#212121] flex flex-col  text-[6px] leading-[7.31px] text-center xl:text-left text-[#f9f9f9] xl:text-sm xl:leading-[17px] gap-y-2 px-15px lg:px-20 2xl:px-44 py-4" style="    background-color: rgb(33 33 33 /1);
+  color: white;
+  font-size: 14px;">
+    <div class="container-fluid pe-0 ps-0">
+      <div class=" flex row  align-items-center">
+        <div class="col-6">
+          <p class="font-medium xl:font-regular">
+            Copyright © 2023 Everywhere as a Service Private Limited <sup>®</sup>. All Rights
+            Reserved
+          </p>
+          <p class="font-semibold xl:font-medium">
+            All the Logos used are registered trademarks of their respective
+            companies.
+          </p>
+        </div>
+        <div class="col-2">
+          <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+        <div class="col-2">
+          
+            <a href="/terms-of-use">Terms &amp; Condition</a>
+         
+        </div>
+
+        <div class="col-2">
+            <div class="footer-links">
+              <a href="https://www.facebook.com/proxgy" target="_blank" class="footer-link"><img src="images/facebook.svg" alt="Proxgy-Facebook"></a>
+              <a href="https://twitter.com/proxgy" target="_blank" class="footer-link"><img src="images/twitter.svg" alt="Proxgy-Twitter"></a>
+              <a href="https://www.linkedin.com/company/proxgy" target="_blank" class="footer-link"><img src="images/linkedin.svg" alt="Proxgy-linkedin"></a>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </footer>
+
+
+    <footer class="mobile_view footer_sec_mobile_view overflow-hidden bg-[#212121] flex flex-col  text-[6px] leading-[7.31px] text-center xl:text-left text-[#f9f9f9] xl:text-sm xl:leading-[17px] gap-y-2 px-15px lg:px-20 2xl:px-44 py-4" style="    background-color: rgb(33 33 33 /1);
+  color: white;
+  font-size: 14px;">
+    <div class="container-fluid pe-0 ps-0">
+      <div class=" flex-col  align-items-center">
+        <div class="col-6">
+          <p class="font-medium xl:font-regular">
+            Copyright © 2023 Everywhere as a Service Private Limited <sup>®</sup>. All Rights
+            Reserved
+          </p>
+          <p class="font-semibold xl:font-medium">
+            All the Logos used are registered trademarks of their respective
+            companies.
+          </p>
+        </div>
+        <div class="col-2">
+          <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+        <div class="col-2">
+          
+            <a href="/terms-of-use">Terms &amp; Condition</a>
+         
+        </div>
+
+        <div class="col-2">
+            <div class="footer-links">
+              <a href="https://www.facebook.com/proxgy" target="_blank" class="footer-link"><img src="images/facebook.svg" alt="Proxgy-Facebook"></a>
+              <a href="https://twitter.com/proxgy" target="_blank" class="footer-link"><img src="images/twitter.svg" alt="Proxgy-twitter"></a>
+              <a href="https://www.linkedin.com/company/proxgy" target="_blank" class="footer-link"><img src="images/linkedin.svg" alt="Proxgy-linkedin"></a>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </footer>
+  <script>
+    if (screen && screen.width > 768) {
+      document.write('<script type="text/javascript" src="/dist/js/home.js"><\/script>');
+    }
+    </script><script type="text/javascript" src="js/home.js"></script>
+   <script>
+    window.onload = function() {
+    var tl = new TimelineMax({
+      onComplete: function() {
+        this.restart();
+      }
+    });
+    tl
+      .from("#fadetext1", 2, { autoAlpha: 0 })
+      .to("#fadetext1", 0.8, { autoAlpha: 0 })
+      .from("#fadetext2", 2, { autoAlpha: 0 })
+      .to("#fadetext2", 0.8, { autoAlpha: 0 })
+      .from("#fadetext3", 2, { autoAlpha: 0 })
+    .to("#fadetext3", 0.8, { autoAlpha: 0 })
+    .from("#fadetext4", 2, { autoAlpha: 0 })
+    .to("#fadetext4", 0.8, { autoAlpha: 0 });
+  };
+  </script>
+  
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+    <script src="js/nav.js"></script>
+  
+
+</body></html>

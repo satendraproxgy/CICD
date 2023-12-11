@@ -1,0 +1,123 @@
+.metapod_ntwrk_img_bg {
+  width: 100%;
+  height: 65vh;
+  background-image: url(/assets/images/revamped/soundbox/metapod_feature.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.slideBthWaysSection {
+  padding-top: 0px !important;
+}
+.slideBthWaysSection .container {
+  max-width: 1440px;
+}
+
+.led_display_sec_anim {
+  padding-top: 0px !important;
+}
+
+.multi_lang_spt_sec {
+  padding-top: 0px !important;
+}
+
+.printer_sec_anim {
+  flex-direction: column;
+  padding-top: 0px;
+}
+.printer_sec_anim .img_sec {
+  display: flex;
+  justify-content: center;
+}
+
+.sptdLangImgBg {
+  width: 100%;
+  height: 64vh;
+  background-image: url(/assets/images/revamped/soundbox/sptd_lng.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 0%;
+}
+
+.sptd_lng_pink_mpd_bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/images/revamped/soundbox/metapod_pink_t.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.ip67leftImgBg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/images/revamped/soundbox/soundboox_led_display_new.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 56% 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.ip67RightImgBg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/images/revamped/soundbox/metapod_pink_back_new.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 41% 50%;
+}
+
+.soundbox_display_upward_img_bg {
+  width: 90%;
+  height: 100vh;
+  background-image: url(/assets/images/revamped/soundbox/soundboox_led_display_new.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+}
+
+.soundbox_display_back_upward_img_bg {
+  width: 90%;
+  height: 100vh;
+  background-image: url(/assets/images/revamped/soundbox/thermal_printer_new.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+}
+
+.metapodDesignStoryImg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.metapod_blue_bck_anim {
+  width: 100%;
+  height: 65vh;
+  margin-top: 60px;
+  background-image: url(/assets/images/revamped/soundbox/metapod_blue_back_new.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.metapod_design_sec_animation {
+  display: none;
+  padding-top: 150px;
+}
+.metapod_design_sec_animation .metapodDesc {
+  text-align: left;
+}
+
+@media screen and (min-width: 1600px) {
+  .soundbox_display_back_upward_img_bg {
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 50%;
+  }
+}/*# sourceMappingURL=audiocube.css.map */

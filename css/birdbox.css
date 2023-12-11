@@ -1,0 +1,823 @@
+.birdbox_coming_soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.birdbox_coming_soon .btn_sec {
+  border: #000 solid 1px;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.birdbox_coming_soon .mid_sec_birdbox {
+  display: flex;
+  flex-direction: column;
+}
+.birdbox_coming_soon img {
+  max-width: 545px;
+}
+.birdbox_coming_soon h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.birdboxVideo {
+  transform: translate(0px, 0px) !important;
+  top: 0.200012px !important;
+}
+
+.birdboxVideo {
+  background-color: #fff !important;
+}
+
+#birdboxVideo_canvas {
+  width: 1598px !important;
+  height: 707px !important;
+  top: 7px;
+  left: -413px;
+  position: absolute;
+}
+
+#proy_camera_txt_cntr {
+  position: relative;
+  z-index: 1;
+}
+
+.video_birdbox {
+  position: relative;
+  z-index: 11;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+.min_h80 {
+  min-height: 80vh !important;
+}
+
+.min_h60 {
+  min-height: 60vh !important;
+}
+
+.panel.proy360View {
+  background-color: #fff;
+  height: 700px !important;
+  overflow: hidden;
+}
+
+.dual_text_ani .text_sec_update {
+  width: 530px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  right: 0;
+}
+.dual_text_ani .text_sec_update .text_sec {
+  position: relative;
+  right: 0;
+}
+.dual_text_ani .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.dual_text_ani .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.birdbox_panel_top_desktop {
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  color: #212121;
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+  scroll-snap-align: start;
+  position: relative;
+  padding-top: 0vh;
+}
+
+.adjustable_sec_birdbox_desktop {
+  padding-top: 0px !important;
+  height: 100vh !important;
+}
+.adjustable_sec_birdbox_desktop .mid_sec {
+  overflow: hidden;
+}
+.adjustable_sec_birdbox_desktop .mid_sec .video-container_adjustable_heights {
+  width: 100%;
+  height: 100vh;
+}
+.adjustable_sec_birdbox_desktop .mid_sec .video-scrub_adjustable_heights {
+  transform: translate(0px, 56px) !important;
+  top: unset !important;
+  width: 680px !important;
+  height: 680px !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
+  position: relative !important;
+}
+.adjustable_sec_birdbox_desktop .mid_sec .img_sec {
+  position: relative;
+  top: -120px;
+}
+.adjustable_sec_birdbox_desktop .mid_sec .text_sec_update {
+  display: flex;
+  align-items: center;
+}
+.adjustable_sec_birdbox_desktop .mid_sec .text_sec_update .text_sec {
+  position: absolute;
+  top: 35%;
+}
+.adjustable_sec_birdbox_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.adjustable_sec_birdbox_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.proximity_sensor_birdbox_desktop .mid_sec {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.proximity_sensor_birdbox_desktop .mid_sec .img_sec_update {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+.proximity_sensor_birdbox_desktop .mid_sec .img_sec_update img {
+  width: 100%;
+}
+.proximity_sensor_birdbox_desktop .mid_sec .proximity_img_ani {
+  width: 100%;
+  position: absolute;
+  top: -250px;
+  max-width: 100%;
+  display: block;
+}
+.proximity_sensor_birdbox_desktop .mid_sec .text_sec_update {
+  width: 530px;
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+.proximity_sensor_birdbox_desktop .mid_sec .text_sec_update .text_sec {
+  position: absolute;
+  right: 0;
+}
+.proximity_sensor_birdbox_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.proximity_sensor_birdbox_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.three_sixty_sec_birdbox_desktop .mid_sec {
+  display: flex;
+}
+.three_sixty_sec_birdbox_desktop .mid_sec img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.three_sixty_sec_birdbox_desktop .mid_sec .text_sec_update {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.three_sixty_sec_birdbox_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.three_sixty_sec_birdbox_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+.three_sixty_sec_birdbox_desktop .mid_sec .img_sec_update {
+  display: flex;
+  justify-content: center;
+}
+
+.plenty_of_storage_desktop {
+  background-color: #151515;
+  overflow: hidden;
+}
+.plenty_of_storage_desktop .mid_sec {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.plenty_of_storage_desktop .mid_sec .text_sec_update {
+  width: 530px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.plenty_of_storage_desktop .mid_sec .text_sec_update .txt_sec {
+  position: absolute;
+  right: 0;
+  color: #f8f8f8;
+}
+.plenty_of_storage_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.plenty_of_storage_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.multilayered_protection_birdbox_desktop .mid_sec {
+  display: flex;
+  align-items: center;
+}
+.multilayered_protection_birdbox_desktop .mid_sec img {
+  width: 67%;
+  position: absolute;
+  top: 30px;
+  right: -175px;
+}
+.multilayered_protection_birdbox_desktop .mid_sec .text_sec_update {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.multilayered_protection_birdbox_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.multilayered_protection_birdbox_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+.multilayered_protection_birdbox_desktop .mid_sec .img_sec_update {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.self_wipe_mode_desktop {
+  min-height: 45vh;
+}
+.self_wipe_mode_desktop .mid_sec {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.self_wipe_mode_desktop .mid_sec img {
+  width: 100%;
+}
+.self_wipe_mode_desktop .mid_sec .text_sec_update {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.self_wipe_mode_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.self_wipe_mode_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.multilayered_security_access_birdbox_desktop .mid_sec {
+  display: flex;
+  align-items: center;
+}
+.multilayered_security_access_birdbox_desktop .mid_sec img {
+  width: 100%;
+}
+.multilayered_security_access_birdbox_desktop .mid_sec .text_sec_update {
+  width: 730px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.multilayered_security_access_birdbox_desktop .mid_sec .text_sec_update .text_sec {
+  position: absolute;
+  right: 0;
+}
+.multilayered_security_access_birdbox_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  max-width: 530px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.multilayered_security_access_birdbox_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 520px;
+  line-height: 29px;
+  text-align: left;
+}
+.multilayered_security_access_birdbox_desktop .mid_sec .img_sec_update {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.controls_desktop .mid_sec {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.controls_desktop .mid_sec img {
+  width: 87%;
+  position: absolute;
+  top: 0;
+  padding: 30px 0px;
+  left: -200px;
+}
+.controls_desktop .mid_sec .text_sec_update {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.controls_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.controls_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 440px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.stability_in_terrains_birdbox_desktop .mid_sec {
+  display: flex;
+  align-items: center;
+}
+.stability_in_terrains_birdbox_desktop .mid_sec img {
+  width: 84%;
+  position: absolute;
+  top: 0;
+  right: -150px;
+}
+.stability_in_terrains_birdbox_desktop .mid_sec .text_sec_update {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.stability_in_terrains_birdbox_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.stability_in_terrains_birdbox_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+.stability_in_terrains_birdbox_desktop .mid_sec .img_sec_update {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.built_to_last_desktop .mid_sec {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.built_to_last_desktop .mid_sec img {
+  width: 78%;
+  position: absolute;
+  top: -60px;
+  left: -200px;
+}
+.built_to_last_desktop .mid_sec .text_sec_update {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.built_to_last_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.built_to_last_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.long_battery_life_birdbox_desktop .mid_sec {
+  display: flex;
+  align-items: center;
+}
+.long_battery_life_birdbox_desktop .mid_sec video {
+  margin-top: 60px;
+}
+.long_battery_life_birdbox_desktop .mid_sec .text_sec_update {
+  width: 730px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.long_battery_life_birdbox_desktop .mid_sec .text_sec_update .text_sec {
+  position: absolute;
+  right: 0;
+  max-width: 530px;
+}
+.long_battery_life_birdbox_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.long_battery_life_birdbox_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+.long_battery_life_birdbox_desktop .mid_sec .img_sec_update {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.waterproff_charger_desktop .mid_sec {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.waterproff_charger_desktop .mid_sec img {
+  width: 100%;
+  left: -274px;
+  position: absolute;
+  top: 60px;
+}
+.waterproff_charger_desktop .mid_sec .text_sec_update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.waterproff_charger_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.waterproff_charger_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.multiple_connectivity_birdbox {
+  background-color: #111;
+  padding-top: 0px !important;
+  position: relative;
+  top: -1px !important;
+}
+.multiple_connectivity_birdbox .multiple_connectivity_card {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.multiple_connectivity_birdbox .statickpage_birdbox_multipleconnection_card_item {
+  height: 243px;
+  width: 243px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.multiple_connectivity_birdbox .statickpage_birdbox_multipleconnection_card_item p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+  margin-top: 15px;
+}
+.multiple_connectivity_birdbox .statickpage_birdbox_multipleconnection_card_item h3 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 190px;
+}
+.multiple_connectivity_birdbox .teaser_sec_locator {
+  justify-content: flex-end;
+}
+.multiple_connectivity_birdbox .text_sec1 {
+  margin-top: 70px;
+  max-width: 504px;
+}
+.multiple_connectivity_birdbox .text_sec1 h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: left;
+  color: #fff;
+}
+.multiple_connectivity_birdbox .text_sec1 p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f8f8f8;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.easy_portability_desktop {
+  background-color: #000;
+  overflow: hidden;
+}
+.easy_portability_desktop .mid_sec {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.easy_portability_desktop .mid_sec .video-container_easy_portability {
+  width: 100%;
+  height: 100vh;
+}
+.easy_portability_desktop .mid_sec .video-easy_portability_ani {
+  width: 100%;
+}
+.easy_portability_desktop .mid_sec img {
+  width: 100%;
+}
+.easy_portability_desktop .mid_sec .text_sec_update {
+  width: 530px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #f0f0f0;
+}
+.easy_portability_desktop .mid_sec .text_sec_update .txt_sec {
+  position: absolute;
+  right: 0;
+  color: f0f0f0;
+}
+.easy_portability_desktop .mid_sec .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  max-width: 516px;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.easy_portability_desktop .mid_sec .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.birdbox_black_bg_bottom_desktop {
+  background-color: #000;
+  position: relative;
+  top: -1px;
+}
+.birdbox_black_bg_bottom_desktop .text_sec_update .txt_sec {
+  position: absolute;
+  left: 0;
+  top: 250px;
+  z-index: 1;
+  right: 0;
+  margin: auto;
+  color: #fff;
+}
+.birdbox_black_bg_bottom_desktop .text_sec_update h2 {
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 73px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.birdbox_black_bg_bottom_desktop .text_sec_update p {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 516px;
+  margin: auto;
+  line-height: 29px;
+  text-align: center;
+}
+
+footer .col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+footer .col-6 p {
+  padding: 0px 0px;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  padding-left: 9rem;
+  padding-right: 9rem;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  font-size: 14px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+footer .col-6 p {
+  padding: 0px 0px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+footer .footer-links {
+  justify-content: center;
+  display: flex;
+}
+
+.footer-links a {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 1600px) {
+  .panel.proy360View {
+    background-color: #fff;
+    height: 1000px !important;
+    max-height: 1000px !important;
+    overflow: hidden;
+  }
+  #birdboxVideo_canvas {
+    width: 1898px !important;
+    height: 950px !important;
+    position: relative;
+  }
+  .adjustable_sec_birdbox_desktop .mid_sec .video-scrub_adjustable_heights {
+    transform: translate(0px, 56px) !important;
+    top: unset !important;
+    width: 880px !important;
+    height: 880px !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    position: relative !important;
+  }
+  .multilayered_protection_birdbox_desktop {
+    min-height: 80vh !important;
+  }
+  .controls_desktop .mid_sec img {
+    top: 20%;
+  }
+  .multilayered_protection_birdbox_desktop .mid_sec img {
+    top: 15%;
+  }
+  .proximity_sensor_birdbox_desktop .mid_sec .text_sec_update {
+    width: 530px;
+  }
+  .plenty_of_storage_desktop .mid_sec .text_sec_update {
+    width: 530px;
+  }
+  .multilayered_security_access_birdbox_desktop .mid_sec .text_sec_update {
+    width: 900px;
+  }
+  .multilayered_security_access_birdbox_desktop .mid_sec .text_sec_update .text_sec {
+    position: absolute;
+    right: 0;
+  }
+  .easy_portability_desktop .mid_sec .text_sec_update {
+    width: 530px;
+  }
+  .waterproff_charger_desktop .mid_sec img {
+    top: 20%;
+  }
+  .easy_portability_desktop .mid_sec .video-easy_portability_ani {
+    width: 98%;
+  }
+  .easy_portability_desktop .mid_sec img {
+    width: 98%;
+  }
+}
+@media screen and (min-width: 1900px) {
+  #birdboxVideo_canvas {
+    width: 1898px !important;
+    height: 1030px !important;
+    position: relative;
+  }
+  .panel.proy360View {
+    height: 1030px !important;
+    max-height: 1030px !important;
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) {
+  footer .col-6 p {
+    padding: 10px 0px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  footer .col-2 {
+    width: 100%;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  footer .footer_sec {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    position: relative;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .multilayered_security_access_birdbox_desktop .mid_sec .text_sec_update {
+    width: 670px;
+  }
+}/*# sourceMappingURL=birdbox.css.map */

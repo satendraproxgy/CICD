@@ -1,0 +1,841 @@
+
+
+<!DOCTYPE html>
+<html lang="en"  >
+  <head>
+    <title>Lockator :: Proxgy</title>
+
+    
+    <meta charset="utf-8" />
+    <meta name="author" content="Lockator :: Proxgy"/>
+    <meta name="description" content="Groundbreaking Logistics Solution :: PROXGY is helping businesses to track and detect asset conditions in real time. " />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <!-- Mobile Stuff -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Lockator :: Proxgy" />
+    <!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png"> -->
+    <!-- Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Lockator :: Proxgy" />
+    <link rel="apple-touch-icon" href="/assets/favicon.png" />
+    <!-- Windows 8 -->
+    <meta name="msapplication-TileImage" content="/assets/favicon.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <!-- General Tags -->
+    <meta name="theme-color" content="#000000" />
+
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <!-- <link rel="stylesheet" href="/assets/css/customStyles.scss"/> -->
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/customProy.css"/>
+    <link rel="stylesheet" href="/assets/css/responsive.css"/>
+    <link rel="stylesheet" href="/assets/css/lockator.css"/>
+    <link rel="stylesheet" href="/dist/css/nav.css"  />
+    <script src="/assets/js/gsap.min.js"></script>
+    <script src="/assets/js/ScrollTrigger.min.js"></script>
+    <script src="/assets/js/TextPlugin.min.js">
+    </script>
+    <script src="/assets/js/lockator.js">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap"
+          rel="stylesheet"
+          />
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    
+
+  </head>
+  <body class="hideOvrFlowXMob transition_body">
+    <header class="nav-down" id="navbarSupportedContent1">
+      <nav class="navbar navbar-expand-lg navbar-light  " >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/assets/logo.png" alt="proxgy" width="30" height="100%">
+          </a>
+          <button class="nav-link-mobile mobileonly" type="button"
+          onclick="productmenu_mobile()">Products <img src="/assets/icons/dropdown_arrow.svg"/></button>
+  
+                  <button
+            class="navbar-toggler"
+            type="button"
+            onclick="myFunction()"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-center" id="navbarSupportedContentMobile">
+           
+            <ul class="navbar-nav mr-40px">
+              <li class="nav-item navItemFont">
+                <a
+                  class="nav-link "
+                  href="/products/smarthat.html" title="SmartHat &#174"
+                  >SmartHat <sup>&#174</sup></a
+                >
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/sleefe.html" title="Sleefe &#174">Sleefe <sup>&#174</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/lockator.html" title="Lockator &#8482;">Lockator <sup class="tm_sup">&#8482;</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/audiocube.html" title="AudioCube &#8482;">AudioCube <sup class="tm_sup">&#8482;</sup> </a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/airhat.html" title="AirHat &#174">AirHat <sup>&#174</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/birdbox.html" title="BirdBox &#174">BirdBox <sup>&#8482;</sup></a>
+              </li>
+            </ul>
+  
+            
+  
+          
+          </div>
+
+          <button
+            class="navbar-toggler navbar-toggler-icon_desktop"
+            type="button"
+            onclick="open_sub_category()"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse mobileonly" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <ul class="navbar-nav ">
+              <li class="nav-item navItemFont">
+                <a class="nav-link " href="/products/aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/careers.html">Join Us</a>
+              </li>
+            
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+              </li>
+            </ul>
+  
+            <button
+            class="navbar-toggler navbar-toggler-icon_desktop"
+            type="button"
+            onclick="open_sub_category()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          
+          </div>
+        </div>
+      </nav>
+  
+      <div id="navbarSupportedContentsubcategory" class="sub_category">
+        <ul class="navbar-nav">
+          <li class="nav-item navItemFont">
+            <a class="nav-link " href="/products/aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item navItemFont">
+            <a class="nav-link" href="/products/careers.html">Join Us</a>
+          </li>
+         
+          <li class="nav-item navItemFont">
+            <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+          </li>
+        </ul>
+  
+      </div>
+    </header>
+    <h1 style="display: none;">Lockator :: Proxgy</h1>
+
+    <div class="desktop_view">
+      <div id="overlayContentDesktop"  onclick="remove_sub_category_desktop()" class="overlay_desktop"></div>
+      </div>
+      <div class="mobile_view" >
+        <div id="overlayContentMobile"  onclick="remove_sub_category()" class="overlay_mobile"></div>
+        </div>
+     
+    <div class="desktop_view">
+    <div  id="smooth" style="padding-top: 7vh; ">
+      <section class="banner_top" >
+        <div class="div2">
+          <div class="banner_lockator banner_lockator_animation">
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-1.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-2.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-3.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-4.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-2.webp)"></div>
+            <div className="textScroll">
+            </div>
+          </div>
+        </div>
+        <div class="text_sec">
+          <div id="text">
+            The Lockator, by PROXGY, has inbuilt GPS and tamper monitor which provides real time location and health data to the dashboard.
+            Helping businesses to track and detect asset conditions in real time.
+            Lockator gives the option to define routes and mark checkpoints, deviation from which can alert the supervisors to take appropriate action.
+            Location tracking, tamper alerts and status logs offer an additional layer of safety while transporting business equipment.
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+      </section>
+      <section id="red" class="panel white align-top smart_lock_sec smart_lock_sec_animation">
+          <div class="img_sec_smartlock_txt">
+       
+          <div class="text_sec_smartlock text_sec_smartlock_animation">
+            <div class="text_secip">
+              <h2>IP 68 rated. </h2>
+            <p>Waterproof. Dustproof. Weatherproof. </p>
+            </div>
+           
+          </div>
+          </div>
+      
+      </section>
+      <section class=" panel multiple_ways multiple_ways_ani  relative w-full h-screen">
+        <div class="w-full h-full flex flex-col">
+          <div class="img_sec_multiple_ways h-fit w-full top-0 bottom-0 left-0 right-0 mx-auto my-auto">
+            <video class="video-background_lockator video-lockator_play_ani" alt="Lockator" title="Lockator" src="/assets/videos/revamped/lockator/lock_unlock_loop.mp4" autoplay muted loop></video>
+          </div>
+          <div class=" text_sec_multiple_ways multiple_text_ani  absolute left-0 right-0 top-[212px] mx-auto w-min text-center">
+            <h2 class="font-semibold  w-max">Multiple ways to unlock.
+              </h1>
+            <p class=" mt-6">Using NFC, RFiD, mobile application or a predefined radio signal are some of the ways one can unlock the Lockator in a safe and secure manner.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="steel_threading relative w-full h-screen">
+        <div class="img_txt_steel_thread w-full h-full flex flex-col justify-center">
+          <div class="img_sec_steel_threading h-fit top-0 bottom-0 left-0 right-0 mx-auto my-auto">
+            <div class="with_overlay"></div>
+            <img src="/assets/images/revamped/lockator/steel_threading.webp" alt="proxgy">
+          </div>
+          <div class=" text_sec_reinforced reinforced_txt_ani   left-0 right-0 top-[212px] mx-auto w-min text-center">
+            <h2 class="font-semibold  w-max">Reinforced steel threading.
+              </h1>
+            <p class=" mt-6">Industry grade steel threading ensures that the lock cant be broken easily. The mechanism is also safe from any external short circuiting attempts.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="panel usb_typec relative w-full h-screen z-1">
+        <div class="img_txt_usb_typec w-full flex">
+          <div class=" h-fit img_sec_usb_typec  top-0 bottom-0 left-0 right-0 mx-auto my-auto">
+            <div class="with_overlay"></div>
+            <img src="/assets/images/revamped/lockator/usb_typec.webp"  alt="proxgy">
+          </div>
+          <div class="  text_sec_usb_typec text_sec_usb_typec_ani absolute left-0 right-0 top-[212px] mx-auto w-min text-center" style="color: #000;">
+            <h2 class="font-semibold  w-max">USB type-C charging.
+              </h1>
+            <p class=" mt-6">For faster charging, c-type USB port allows the Lockator to get charged on the move.
+            </p>
+          </div>
+        </div>
+      </section>
+     
+
+      <section class=" no_network_sec relative w-full h-screen z-1">
+        <div class="img_txt_no_network w-full h-full flex flex-col">
+          <div class=" h-fit  top-0 bottom-0 left-0 right-0 mx-auto my-auto">
+            <img src="/assets/images/revamped/lockator/ship1.webp" class="img_sec_no_network" alt="proxgy">
+          </div>
+          <div class=" text_sec_no_network text_sec_no_network_ani container1">
+            <div class="nonetworktxt">
+            <h2 class="font-semibold ">No network?
+              <br/> No problem.
+              </h2>
+            <p class=" mt-6">Lockator 2 links with the geolocation satellites and stays connected even in the remotest of areas.
+            </p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+      <section class=" geo_location_sec2  relative w-full h-screen">
+        <div class="container img_txt_geo_location_sec2 justify-center w-full h-full flex flex-col">
+    
+          <div class="  text_sec_geo_location_sec2 container1 absolute left-0 right-0 mx-auto  text-center">
+            <div class="text_section_network2 text_section_network_ani">
+              <h2 class="font-semibold  w-max">Geo-location.
+                <br/> Geo-fencing.
+                </h1>
+              <p class=" mt-6">Get greater control by defining geo-locations and limiting the lock’s opening within a pre-defined area. Role based authorizations ensure higher flexibility.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="red" class="panel white align-top tamper_detection">
+        <div class="container align-items-center justify-content-center">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-lg-7">
+              <div class="metapod_ntwrk_img_bg ntwrk_img_anm">
+              </div>
+              <!-- <img class="ntwrk_img_anm" style="width: 58vw;transform: translate(-40%, 0px);" src="/assets/images/revamped/soundbox/metapod_feature.png"/> -->
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-5  ntwrk_txt_cnt_anm" >
+              <div class="temper_txt">
+              <div>
+                <p class="metapodTitle textEnd">Tamper detection electronics.
+                </p>
+              </div>
+              <div>
+                <p class="metapodDesc textEnd">Lockator is a tamper detection intelligent product which alerts you in case of any tampering detected at PCB or mechanical level.
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+      <section  class="panel white align-top multiple_connectivity w-full min-h-screen  flex flex-col-reverse  justify-center items-start">
+        <div class="container1 multiple_connectivity_card flex flex-col-reverse  justify-center items-start ">
+          <div class="w-full flex  teaser_sec_locator">
+            <div class="grid grid-cols-2 gap-5">
+              <div class="statickpage_lockator_multipleconnection_card_item fiveg_card" >
+                <img alt="5G" src="/assets/images/revamped/lockator/5g.webp"  >
+                <p class="text-sm">Upgradable
+                </p>
+              </div>
+              <div class="statickpage_lockator_multipleconnection_card_item fourg_card" >
+                <img alt="4G" src="/assets/images/revamped/lockator/4g.webp"  >
+                <p class="text-sm">
+                </p>
+              </div>
+              
+              <div class="statickpage_lockator_multipleconnection_card_item esim_card" >
+                <img alt="Esim" src="/assets/images/revamped/lockator/esim.webp">
+                <p class="text-sm">eSIM
+                </p>
+              </div>
+              <div class="statickpage_lockator_multipleconnection_card_item bluetooth_card" >
+                <img alt="Bluetooth" src="/assets/images/revamped/lockator/bluetooth.webp">
+                <p class="text-sm">
+                  BlueTooth
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full mb-16 text-center text-right text_sec1 multiple_connectivity_text">
+            <h2 >Multiple connectivity options.
+              </h1>
+            <p class="text-sm text-2xl mt-6" >An industry first with physical SIM and eSIM slots for cross network connectivity. 5G available in Lockator 2.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="w-full h-screen relative use_cases_sec use_cases_sec_ani">
+        
+        <div class="top-0 w-full h-full">
+          <div class="container1 h-full flex flex-col justify-center relative">
+            <h2 class="heading_sec">Use Cases
+            </h2>
+            <div class="w-full grid  grid-cols-4  gap-5 mt-6">
+              <div class="staticpage_lockator_usecases_card_item asset_tracking" >
+                <h3 class="text-sm xl:text-[#F0F0F0] font-semibold">Asset tracking
+                </h3>
+                <p class="text-[10px] xl:text-[#F8F8F8] font-light pt-3 lg:pt-6">Inbuilt GPS and tamper monitor in the Lockator provides real time location and health data to the dashboard. Helping businesses to track and detect asset conditions in real time.
+                </p>
+              </div>
+              <div class="staticpage_lockator_usecases_card_item route_planning" >
+                <h3 class="text-sm xl:text-[#F0F0F0] font-semibold">Route  planning
+                </h3>
+                <p class="text-[10px] xl:text-[#F8F8F8] font-light pt-3 lg:pt-6">Lockator gives the option to define routes and mark checkpoints, deviation from which can alert the supervisors to take appropriate action.
+                </p>
+              </div>
+              <div class="staticpage_lockator_usecases_card_item cargo_safety" >
+                <h3 class="text-sm xl:text-[#F0F0F0] font-semibold">Cargo safety
+                </h3>
+                <p class="text-[10px] xl:text-[#F8F8F8] font-light pt-3 lg:pt-6">Location tracking, tamper alerts and status logs offer an additional layer of safety while transporting business equipment.
+                </p>
+              </div>
+            </div>
+
+           
+    
+          </div>
+          <div class="container1">
+            <div
+            type="button" 
+            class="get_design_btn_desktop "onclick="btnClick()" >
+          
+            <div id="close_btn_desktop">
+              <div class="active_btn_sec_desktop">  <span>Get the design story behind Lockator</span>
+                <img class="img1"  src="/assets/images/revamped/plus_icon.png"/></div>
+
+                <div class="close_btn_sec_desktop">  <span>Close</span>
+                  <img class="img1"  src="/assets/images/revamped/close_icon.png"/></div>
+            </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="grayBg design_sec_animation " id="design_story_sec_desktop" >
+        <div class="container1 align-items-center justify-content-center">
+          <div class="row " style="height: 100vh;">
+      
+      
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-6 align-items-center justify-content-center text_sec">
+      
+              <div>
+                <p class="metapodTitle">Designed to perfection.</p>
+              </div>
+              <div>
+                <p class="metapodDesc">Meticulously market researched and user friendly backend approach makes Lockator a brilliantly designed  product for our logistical work force.</p>
+              </div>
+      
+            </div>
+      
+      
+            <div class="metapodDesignStoryImg_sec col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-6" style="height: 100%;">
+                <img class="metapodDesignStoryImg" src="/assets/images/revamped/lockator/design_perfection.webp"/>
+            </div>
+      
+           
+          </div>
+      
+        </div>
+      </section>
+      
+      <footer
+      class="overflow-hidden bg-[#212121] flex flex-col  text-[6px] leading-[7.31px] text-center xl:text-left text-[#f9f9f9] xl:text-sm xl:leading-[17px] gap-y-2 px-14 lg:px-20 2xl:px-44 py-4"
+    style="    background-color: rgb(33 33 33 /1);
+    color: white;
+    font-size: 14px;"
+      >
+      <div class="container-fluid pe-0 ps-0">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <p class="font-medium xl:font-regular">
+              Copyright © 2023 Everywhere as a Service Private Limited <sup>&#174</sup>. All Rights
+              Reserved
+            </p>
+            <p class="font-semibold xl:font-medium">
+              All the Logos used are registered trademarks of their respective
+              companies.
+            </p>
+          </div>
+          <div class="col-2">
+            <a href="/privacy-policy">Privacy Policy</a>
+          </div>
+          <div class="col-2">
+            
+              <a  href="/terms-of-use">Terms & Condition</a>
+           
+          </div>
+  
+          <div class="col-2">
+              <div class="footer-links">
+                <a href="https://www.facebook.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/facebook.svg" alt="Facebook"></img></a>
+                <a href="https://twitter.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/twitter.svg" alt="twitter"></img></a>
+                <a href="https://www.linkedin.com/company/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/linkedin.svg" alt="linkedin"></img></a>
+              </div>
+          </div>
+    
+        </div>
+      </div>
+    
+    </footer>
+  </div>
+   
+<!-- Mobile UI -->
+
+    <div class="mobile_view locket_view">
+      <div  id="smooth" style="padding-top: 6vh; ">
+        <section class="banner_top" >
+          <div class="div2">
+            <div class="banner_lockator">
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-1_mobile.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-2_mobile.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-3_mobile.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-4_mobile.webp)"></div>
+            <div style="background-image:url(/assets/images/revamped/lockator/banner-2_mobile.webp)"></div>
+            <div className="textScroll">
+            </div>
+            </div>
+          </div>
+          <div class="text_sec">
+            <div id="text">
+              The Lockator, by PROXGY, has inbuilt GPS and tamper monitor which provides real time location and health data to the dashboard.
+              Helping businesses to track and detect asset conditions in real time.
+              Lockator gives the option to define routes and mark checkpoints, deviation from which can alert the supervisors to take appropriate action.
+              Location tracking, tamper alerts and status logs offer an additional layer of safety while transporting business equipment.
+            </div>
+          </div>
+        </section>
+        </div>
+        <section  class="panel white align-top smart_lock_sec_mobile">
+          <div class="img_sec_text_sec">
+          <div >
+            <img class="img_sec_mobile md-none" src="/assets/images/revamped/lockator/ip68_mobile.webp" alt="proxgy">
+            <img class="img_sec_mobile sm-none" src="/assets/images/revamped/lockator/ip68_mobile.webp" alt="proxgy">
+          </div>
+       
+          <div class=" text_sec">
+            <div class="text_rel">
+            <h2>IP 68 rated.
+              </h2>
+            <p>Waterproof. Dustproof. Weatherproof. </p>
+          </div>
+          </div>
+          </div>
+      
+      </section>
+
+      <section  class="panel white align-top multiple_ways_sec_mobile">
+        <div class="img_sec_text_sec">
+        <div class="" >
+          <img class=" img_sec_mobile" src="/assets/images/revamped/lockator/smart_lock_mobile.webp" alt="proxgy">
+        </div>
+        <div class=" text_sec">
+          <div class="text_rel">
+          <h2>Multiple ways to unlock.
+            </h2>
+          <p>Using NFC, RFiD, mobile application or a predefined radio signal are some of the ways one can unlock the Lockator in a safe and secure manner. </p>
+        </div>
+        </div>
+        </div>
+    
+    </section>
+
+    <section  class="panel white align-top steel_threading_sec_mobile">
+      <div class="img_sec_text_sec">
+      <div class="img_sec_mobile" >
+        <div class="with_overlay"></div>
+        <img class=" img_sec_smartlock_mobile" src="/assets/images/revamped/lockator/steel_threading_mobile.webp" alt="proxgy">
+      </div>
+      <div class=" text_sec">
+        <h2>Reinforced steel threading.
+          </h2>
+        <p>Industry grade steel threading ensures that the lock cant be broken easily. The mechanism is also safe from any external short circuiting attempts.</p>
+      </div>
+      </div>
+  
+  </section>
+
+  <section  class="panel white align-top usb_charging_sec_mobile">
+    <div class="img_sec_text_sec">
+    <div class="img_sec_mobile" >
+      <img class=" img_sec_smartlock_mobile md-none" src="/assets/images/revamped/lockator/type_c_mobile.webp" alt="proxgy">
+      <img class=" img_sec_smartlock_mobile sm-none" src="/assets/images/revamped/lockator/usb_typec.webp" alt="proxgy">
+    </div>
+    <div class=" text_sec">
+      <h2>USB type-C charging.
+        </h2>
+      <p>For faster charging, c-type USB port allows the Lockator to get charged on the move.</p>
+    </div>
+    </div>
+
+</section>
+
+
+<section  class="panel white align-top no_network_sec_mobile">
+  <div class="img_sec_text_sec">
+  <div class="img_sec_mobile" >
+    <img class=" img_sec_smartlock_mobile md-none" src="/assets/images/revamped/lockator/no_network_mobile.webp" alt="proxgy">
+    <img class=" img_sec_smartlock_mobile sm-none" src="/assets/images/revamped/lockator/ship_tablet.webp" alt="proxgy">
+  </div>
+  <div class=" text_sec">
+    <h2>No network? No problem.
+      </h2>
+    <p>Lockator 2 links with the geolocation satellites and stays connected even in the remotest of areas.</p>
+  </div>
+  </div>
+
+</section>
+
+<section  class="panel white align-top geo_location_sec_mobile">
+  <div class="img_sec_text_sec">
+  <div class="" >
+    <img class=" img_sec_smartlock_mobile md-none" src="/assets/images/revamped/lockator/geo_location_mobile.webp" alt="proxgy">
+    <img class=" img_sec_smartlock_mobile sm-none" src="/assets/images/revamped/lockator/geo-location_img2.webp" alt="proxgy">
+  </div>
+  <div class=" text_sec">
+    <h2>Geo-location. Geo-fencing.
+      </h2>
+    <p>Get greater control by defining geo-locations and limiting the lock’s opening within a pre-defined area. Role based authorizations ensure higher flexibility.</p>
+  </div>
+  </div>
+
+</section>
+
+<section  class="panel white align-top tamper_detection_sec_mobile">
+  <div class="img_sec_text_sec">
+  <div class="img_sec_mobile" >
+    <img class=" img_sec_smartlock_mobile" src="/assets/images/revamped/lockator/tamper_detection_mobile.webp" alt="proxgy">
+  </div>
+  <div class=" text_sec">
+    <h2>Tamper detection electronics.
+      </h2>
+    <p>Lockator is a tamper detection intelligent product which alerts you in case of any tampering detected at PCB or mechanical level.</p>
+  </div>
+  </div>
+
+</section>
+
+
+<section  class="panel white align-top multiple_connectivity_sec_mobile">
+  <div class="container flex flex-col-reverse  justify-center items-start teaser_sec_txt_sec ">
+    <div class="w-full flex justify-center teaser_sec_locator">
+      <div class="grid grid-cols-2 gap-5">
+        <div class="statickpage_lockator_multipleconnection_card_item fiveg_card" >
+          <img alt="5G" src="/assets/images/revamped/lockator/5g.webp"  >
+          <p class="text-sm">Upgradable
+          </p>
+        </div>
+        <div class="statickpage_lockator_multipleconnection_card_item fourg_card" >
+          <img alt="4G" src="/assets/images/revamped/lockator/4g.webp"  >
+          <p class="text-sm">
+          </p>
+        </div>
+      
+        <div class="statickpage_lockator_multipleconnection_card_item esim_card" >
+          <img alt="Esim" src="/assets/images/revamped/lockator/esim.webp">
+          <p class="text-sm">eSIM
+          </p>
+        </div>
+        <div class="statickpage_lockator_multipleconnection_card_item bluetooth_card" >
+          <img alt="Bluetooth" src="/assets/images/revamped/lockator/bluetooth.webp">
+          <p class="text-sm">BlueTooth
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="w-full mb-16 text-center text-right text_sec1 multiple_connectivity_text">
+      <h2 class="text1" >Multiple connectivity options.
+        </h1>
+      <p class="text-sm text-2xl mt-6 text2" >An industry first with physical SIM and eSIM slots for cross network connectivity. 5G available in Lockator 2.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
+<section  class="panel white align-top use_cases_sec_mobile">
+  <div class="container flex flex-col-reverse  justify-center items-start teaser_sec_txt_sec ">
+    
+
+      <div
+      type="button" 
+      class="get_design_btn_mobile"onclick="btnClick1()" >
+    
+      <div id="close_btn_mobile">
+        <div class="active_btn_sec_mobile">  <span>Get the design story behind Lockator</span>
+          <img class="img1"  src="/assets/images/revamped/plus_icon.png"/></div>
+
+          <div class="close_btn_sec_mobile">  <span>Close</span>
+            <img class="img1"  src="/assets/images/revamped/close_icon.png"/></div>
+      </div>
+        </div>
+
+
+
+
+    <div class="w-full flex teaser_sec_locator">
+      <div class="flex flex-wrap gap-1r">
+        <div class="statickpage_lockator_multipleconnection_card_item fiveg_card" >
+         <h2>Asset tracking</h2>
+          <p class="text-sm">Inbuilt GPS and tamper monitor in the lockator provides real time location and health data to the dashboard. Helping businesses to track and detect asset conditions in real time.
+          </p>
+        </div>
+        <div class="statickpage_lockator_multipleconnection_card_item fiveg_card" >
+          <h2>Route planning</h2>
+           <p class="text-sm">Lockator gives the option to define routes and mark checkpoints, deviation from which can alert the supervisors to take appropriate action.
+           </p>
+         </div>
+         <div class="statickpage_lockator_multipleconnection_card_item fiveg_card" >
+          <h2>Cargo safety</h2>
+           <p class="text-sm">Location tracking, Tamper alerts and status logs offer an additional layer of safety while transporting business equipment.
+           </p>
+         </div>
+       
+      </div>
+    </div>
+    <div class="w-full mb-16 text-center text-right text_sec1 multiple_connectivity_text">
+      <h2 class="text1" >Use <br/> Cases
+        </h1>
+      
+    </div>
+
+    
+  </div>
+
+
+
+</section>
+
+<section class=" grayBg design_sec_animation" id="design_story_sec_mobile" >
+  
+  <div class="container align-items-center justify-content-center story_sec_mid">
+    <div class="row ">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 align-items-center justify-content-center text_sec">
+
+        <div>
+          <p class="metapodTitle">Designed to perfection.</p>
+        </div>
+        <div>
+          <p class="metapodDesc">Meticulously market researched and user friendly backend approach makes Lockator a brilliantly designed  product for our logistical work force.</p>
+        </div>
+
+      </div>
+
+
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8 img_sec_mobile">
+          <img class="metapodDesignStoryImg" src="/assets/images/revamped/lockator/design_story_mobile.webp"/>
+      </div>
+
+     
+    </div>
+
+  </div>
+</section>
+
+<footer
+class="overflow-hidden bg-[#212121] flex flex-col  text-[6px] leading-[7.31px] text-center xl:text-left text-[#f9f9f9] xl:text-sm xl:leading-[17px] gap-y-2 px-14 lg:px-20 2xl:px-44 py-4"
+style="    background-color: rgb(33 33 33 /1);
+color: white;
+font-size: 14px;"
+>
+<div class="container-fluid pe-0 ps-0">
+  <div class="row align-items-center">
+    <div class="col-6">
+      <p class="font-medium xl:font-regular">
+        Copyright © 2023 Everywhere as a Service Private Limited <sup>&#174</sup>. All Rights
+        Reserved
+      </p>
+      <p class="font-semibold xl:font-medium">
+        All the Logos used are registered trademarks of their respective
+        companies.
+      </p>
+    </div>
+    <div class="col-2">
+      <a href="/privacy-policy">Privacy Policy</a>
+    </div>
+    <div class="col-2">
+      
+        <a  href="/terms-of-use">Terms & Condition</a>
+     
+    </div>
+
+    <div class="col-2">
+        <div class="footer-links">
+          <a href="https://www.facebook.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/facebook.svg" alt="Facebook"></img></a>
+          <a href="https://twitter.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/twitter.svg" alt="twitter"></img></a>
+          <a href="https://www.linkedin.com/company/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/linkedin.svg" alt="linkedin"></img></a>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+</footer>
+     
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="/dist/js/nav.js"></script>
+    <script src="/assets/js/text_scroll_lockator.js"></script>
+
+<script>
+  function btnClick1(){
+  document.getElementById('design_story_sec_mobile').classList.toggle("show_design_story_mobile");
+  document.getElementById('close_btn_mobile').classList.toggle("show_close_icon_mobile"); 
+}
+
+function btnClick(){
+  
+  document.getElementById('design_story_sec_desktop').classList.toggle("show_design_story_desktop");
+ document.getElementById('close_btn_desktop').classList.toggle("show_close_icon_desktop"); 
+
+}
+</script>
+
+
+<!-- <script>
+gsap.registerPlugin(ScrollTrigger);
+/* The encoding is super important here to enable frame-by-frame scrubbing. */
+// ffmpeg -i ~/Downloads/Toshiba\ video/original.mov -movflags faststart -vcodec libx264 -crf 23 -g 1 -pix_fmt yuv420p output.mp4
+// ffmpeg -i ~/Downloads/Toshiba\ video/original.mov -vf scale=960:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output_960.mp4
+
+gsap.utils.toArray(".video-background_lockator").forEach(video => videoScrub(video, {
+  scrollTrigger: {
+    trigger: video,
+    start: "top top",
+    //end: "+=600",
+    end: '+=700',
+    markers: false,
+    scrub: false,
+    pin: true,
+  }
+}));
+
+function videoScrub(video, vars) {
+  video = gsap.utils.toArray(video)[0]; // in case selector text is fed in.
+  let once = (el, event, fn) => {
+        let onceFn = function () {
+          el.removeEventListener(event, onceFn);
+          fn.apply(this, arguments);
+        };
+        el.addEventListener(event, onceFn);
+        return onceFn;
+      },
+      prepFunc = () => { video.play(); video.pause(); },
+      prep = () => once(document.documentElement, "touchstart", prepFunc),
+      src = video.currentSrc || video.src,
+      tween = gsap.fromTo(video, {currentTime: 0}, {paused: true, immediateRender: false, currentTime: video.duration || 1, ease: "none", ...vars}),
+      resetTime = () => (tween.vars.currentTime = video.duration || 1) && tween.invalidate();
+  prep();
+  video.readyState ? resetTime() : once(video, "loadedmetadata", resetTime);
+  return tween;
+}
+  </script> -->
+
+
+  </body>

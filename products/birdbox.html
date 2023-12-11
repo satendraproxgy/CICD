@@ -1,0 +1,747 @@
+
+
+<!DOCTYPE html>
+<html lang="en"  >
+  <head>
+    <title>BirdBox :: Proxgy</title>
+
+    
+    <meta charset="utf-8" />
+    <meta name="author" content="BirdBox :: Proxgy" />
+    <meta name="description" content="Smartest Safety Helmet:: 
+    PROXGY has developed BirdBox to provide immersive, handsfree, intelligent, safe, analytical solutions to blue collared work force to connect, collaborate and coordinate." />
+   
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+
+    <!-- Mobile Stuff -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="BirdBox :: Proxgy" />
+    <!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png"> -->
+
+    <!-- Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="BirdBox :: Proxgy" />
+    <link rel="apple-touch-icon" href="/assets/favicon.png" />
+
+    <!-- Windows 8 -->
+    <meta name="msapplication-TileImage" content="/assets/favicon.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+
+    <!-- General Tags -->
+    <meta name="theme-color" content="#000000" />
+
+
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/birdbox.css"/>
+    <link rel="stylesheet" href="/assets/css/responsive.css"/>
+    <link rel="stylesheet" href="/dist/css/nav.css"  />
+    <link rel="stylesheet" href="/assets/slide/slider.css"  />
+    <link rel="stylesheet" href="/assets/slide/owl.carousel.min.css"  />
+    
+
+
+    
+    
+
+    <script src="/assets/js/gsap.min.js"></script>
+    <script src="/assets/js/ScrollTrigger.min.js"></script>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+
+  <style>
+
+    .birdbox_black_bg_bottom_txt_ani{
+      position: relative;
+      top:200px;
+    }
+
+   
+    
+      @media (min-width: 1400px){
+    .container{
+        max-width: 1032px;
+    }
+    }
+    </style>
+
+
+<body class="hideOvrFlowXMob">
+  <header class="nav-down" id="navbarSupportedContent1">
+    <nav class="navbar navbar-expand-lg navbar-light  " >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/logo.png" alt="proxgy" title="Proxgy" width="30" height="100%">
+        </a>
+        <button class="nav-link-mobile mobileonly" type="button"
+        onclick="productmenu_mobile()">Products <img alt="Proxgy" title="Proxgy" src="/assets/icons/dropdown_arrow.svg"/></button>
+
+                <button
+          class="navbar-toggler"
+          type="button"
+          onclick="myFunction()"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-center" id="navbarSupportedContentMobile">
+          <ul class="navbar-nav mr-40px">
+            <li class="nav-item navItemFont">
+              <a
+                class="nav-link "
+                href="/products/smarthat.html" title="SmartHat &#174"
+                >SmartHat <sup>&#174</sup></a
+              >
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/sleefe.html" title="Sleefe &#174">Sleefe <sup>&#174</sup></a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/lockator.html" title="Lockator &#8482;">Lockator <sup class="tm_sup">&#8482;</sup></a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/audiocube.html" title="AudioCube &#8482;">AudioCube <sup class="tm_sup">&#8482;</sup> </a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/airhat.html" title="AirHat &#174">AirHat <sup>&#174</sup></a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/birdbox.html" title="BirdBox &#174">BirdBox <sup>&#8482;</sup></a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+        class="navbar-toggler navbar-toggler-icon_desktop"
+        type="button"
+        onclick="open_sub_category()"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       
+        <div class="collapse navbar-collapse mobileonly" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <ul class="navbar-nav mr-40px">
+            <li class="nav-item navItemFont">
+              <a class="nav-link " href="/products/aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/careers.html">Join Us</a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <button
+          class="navbar-toggler navbar-toggler-icon_desktop"
+          type="button"
+          onclick="open_sub_category()"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        </div>
+      </div>
+    </nav>
+
+    <div id="navbarSupportedContentsubcategory" class="sub_category">
+      <ul class="navbar-nav">
+        <li class="nav-item navItemFont">
+          <a class="nav-link " href="/products/aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item navItemFont">
+          <a class="nav-link" href="/products/careers.html">Join Us</a>
+        </li>
+        <li class="nav-item navItemFont">
+          <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+        </li>
+      </ul>
+
+    </div>
+  </header>
+  <h1 style="display: none;">BirdBox :: Proxgy</h1>
+  <div class="desktop_view ">
+    <div id="overlayContentDesktop"  onclick="remove_sub_category_desktop()" class="overlay_desktop"></div>
+    </div>
+    <div class="mobile_view" >
+      <div id="overlayContentMobile"  onclick="remove_sub_category()" class="overlay_mobile"></div>
+      </div>
+
+  <div class="desktop_view overflow-hidden">
+  <section class=" panel desktop_view video_birdbox">
+  <div class="fullScreenVideoBg">
+  <video src="/assets/products/birdbox/video/desktop_main_video.mp4" autoplay muted loop></video>
+  </div>
+  </section>
+ 
+
+
+  <section class="panel proy360View  " style="align-items: flex-start;">
+    <div class="container-fluid lap-view">
+       <div class="row align-items-center">
+        <div class="col-md-6 ">
+          <canvas id="birdboxVideo_canvas"> </canvas>
+        </div>
+          <div class="col-md-6 dual_text_ani " id="proy_camera_txt_cntr">
+            <div class="text_sec_update">
+              <div class="text_sec " >
+        <div class="relative">
+          <div class="proxgy360ViewFrontCameraTxtAnim font24 text-black proyTextAlgnLeft font-normal" >
+            <h2>Adjustable height.</h2>
+            <p>10 to 15 meters adjustable height at the turn of a dial.</p>
+          </div>
+          <div 
+          class="proxgy360ViewRearCameraTxtAnim algnLeftAnm absolute top-0 font24 text-black noOpacity font-normal"
+          >
+          <h2>8MP dual camera.</h2>
+          <p>To capture high definition imagery, BirdBox is equipped with two 8 megapixel cameras.</p>
+          </div>
+        </div>
+        </div>
+        </div>
+          </div>
+          
+      </div> 
+    </div>
+  </section>
+
+
+  <section class="birdbox_panel_top_desktop proximity_sensor_birdbox_desktop proximity_sensor_birdbox_desktop_ani min_h80 w-full">
+    <div class="container-fluid mid_sec">
+      <div class=" col-md-6">
+        <div class="text_sec_update">
+        <div class="text_sec text_sec_proximity_ani" >
+        <h2>Proximity sensor</h2>
+        <p>Proximity sensor on top of the extendable camera tower doesn't let the camera get damaged by any overhead articles.</p>
+     </div>
+    </div>
+      </div>
+      <div class="img_sec_update col-md-6 "><img src="/assets/images/revamped/birdbox/desktop/proxmity_sensor.webp" class="proximity_img_ani" alt="proxgy"></div>
+    </div>
+    </section>
+
+
+    <section class="birdbox_panel_top_desktop three_sixty_sec_birdbox_desktop three_sixty_sec_birdbox_desktop_ani min_h80 w-full">
+      <div class="container mid_sec">
+        <div class="text_sec_update col-md-6 three_sixty_txt_sec_ani">
+          <h2>360° A/V recording and streaming.</h2>
+          <p>BirdBox records and streams a 360° audio and video from the bird's eye perspective.</p>
+        </div>
+        <div class="img_sec_update col-md-6"><img src="/assets/images/revamped/birdbox/desktop/360-camera.webp" alt="proxgy"></div>
+      </div>
+      </section>
+
+
+        <section class="birdbox_panel_top_desktop plenty_of_storage_desktop plenty_of_storage_desktop_ani h-full w-full">
+          <div class="container-fluid mid_sec">
+            <div class="col-md-6 ">
+              <div class="text_sec_update">
+              <div class="txt_sec plenty_storage_txt_ani">
+                <h2>Plenty of storage.</h2>
+                <p>Recorded imagery for upto 8 days gets stored on the onboard storage.</p>
+            </div>
+            </div>
+          </div>
+            <div class="img_sec_update col-md-6">
+              <video class="video-multilayered_security_access_ani" alt="BirdBox" title="BirdBox" src="/assets/products/birdbox/video/plenty_of_storage.mp4" autoplay muted loop></video>
+            </div>
+          </div>
+          </section>
+
+
+        <section class="birdbox_panel_top_desktop multilayered_protection_birdbox_desktop multilayered_protection_birdbox_desktop_ani  w-full">
+          <div class="container mid_sec">
+            <div class="text_sec_update col-md-6 multilayered_protection_txt_ani">
+              <h2>Multi layered protection.</h2>
+              <p>The electronic components are safely and securely installed inside the BirdBox such that tampering with any of them is near impossible.</p>
+            </div>
+            <div class="img_sec_update col-md-6">
+              
+              <img src="/assets/images/revamped/birdbox/desktop/multilayered_protection_desktop.webp" alt="proxgy">
+            
+            
+            </div>
+          </div>
+          </section>
+
+
+          <section class="birdbox_panel_top_desktop self_wipe_mode_desktop self_wipe_mode_desktop_ani min_h60 w-full">
+            <div class="container mid_sec">
+              <div class="text_sec_update col-md-6 self_wipe_mode_txt_ani">
+                <h2>Self wipe mode.</h2>
+                <p>In case the BirdBox detects any serious tampering or damage inflicted on its electronics, the “Self Wipe Mode” gets automatically activated, where the storage is wiped clean and the intruder cannot get hold of any information.</p>
+              </div>
+              <div class="img_sec_update col-md-6"><img src="/assets/images/revamped/birdbox/desktop/self_wipe_desktop.webp" alt="proxgy"></div>
+            </div>
+            </section>
+
+            <section class="birdbox_panel_top_desktop multilayered_security_access_birdbox_desktop multilayered_security_access_ani h-full w-full">
+              <div class="container-fluid mid_sec">
+                <div class=" col-md-6 ">
+                  <div class="text_sec_update">
+                  <div class="text_sec multilayered_security_access_txt_ani">
+                    <h2>Multi level security access.</h2>
+                    <p>The only control panel to use the BirdBox is accessible after unlocking the rotatory number lock on the cover lid of the control panel.</p>
+                  </div>
+                </div>
+                 
+                </div>
+                <div class="img_sec_update col-md-6">
+                  
+                  <!-- <img src="/assets/images/revamped/birdbox/desktop/multilayered_security_desktop.webp" alt="proxgy"> -->
+                
+                  <video class="video-multilayered_security_access_ani" alt="BirdBox" title="BirdBox" src="/assets/products/birdbox/video/multilayered_security_access.mp4" autoplay muted loop></video>
+                
+                </div>
+              </div>
+              </section>
+
+              <section class="birdbox_panel_top_desktop controls_desktop controls_desktop_ani w-full">
+                <div class="container mid_sec">
+                  <div class="text_sec_update controls_txt_ani col-md-6">
+                    <h2>Controls</h2>
+                    <p>Intuitive controls for easy handling of the device.</p>
+                  </div>
+                  <div class="img_sec_update col-md-6"><img src="/assets/images/revamped/birdbox/desktop/controls_birdbox.webp" alt="proxgy"></div>
+                </div>
+                </section>
+
+
+                <section class="birdbox_panel_top_desktop stability_in_terrains_birdbox_desktop stability_in_terrains_ani min_h80 w-full">
+                  <div class="container mid_sec">
+                    <div class="text_sec_update col-md-6 stability_in_terrains_txt_ani">
+                      <h2>Stability in all terrains.</h2>
+                      <p>With the multi-functional levelers, BirdBox can be deployed on the most uneven surfaces without worrying about its stability. </p>
+                    </div>
+                    <div class="img_sec_update col-md-6"><img src="/assets/images/revamped/birdbox/desktop/stability_in_terrains.webp" alt="proxgy"></div>
+                  </div>
+                  </section>
+
+
+                <section class="birdbox_panel_top_desktop built_to_last_desktop built_to_last_ani  w-full">
+                  <div class="container mid_sec">
+                    <div class="text_sec_update col-md-6 built_to_last_txt_ani">
+                      <h2>Built to last.</h2>
+                      <p>Due to its long duration outdoor use, BirdBox is IP68 rated weatherproof device built for rugged usage.</p>
+                    </div>
+                    <div class="img_sec_update col-md-6"><img src="/assets/images/revamped/birdbox/desktop/built_to_last.webp" alt="proxgy"></div>
+                  </div>
+                  </section>
+
+
+                  <section class="birdbox_panel_top_desktop long_battery_life_birdbox_desktop long_battery_life_ani  w-full">
+                    <div class="container-fluid mid_sec">
+                      <div class=" col-md-6 ">
+                        <div class="text_sec_update long_battery_life_txt_ani">
+                          <div class="text_sec">
+                        <h2>Long battery life.</h2>
+                        <p>The LiFePO4 battery makes sure the BirdBox keeps running non-stop for upto 8 days at a stretch. </p>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="img_sec_update col-md-6">
+                        <video class="video-multilayered_security_access_ani" alt="BirdBox" title="BirdBox" src="/assets/products/birdbox/video/battery.mp4" autoplay muted loop></video>
+                      
+                      
+                      </div>
+                    
+                    </div>
+                    </section>
+
+                    <section class="birdbox_panel_top_desktop waterproff_charger_desktop waterproff_charger_ani w-full">
+                      <div class="container mid_sec">
+                        <div class="text_sec_update col-md-6 waterproff_charger_text_ani">
+                          <h2>Weatherproof charger.</h2>
+                          <p>For times when BirdBox needs to be deployed for longer than usual durations, it can be connected to an auxiliary power source via the weatherproof connector provided on-board. This connector also doubles up as its charger.</p>
+                        </div>
+                        <div class="img_sec_update col-md-6"><img src="/assets/images/revamped/birdbox/desktop/waterproff_charger.webp" alt="proxgy"></div>
+                      </div>
+                      </section>
+
+                      <section class="birdbox_panel_top_desktop easy_portability_desktop easy_portability_ani min-h-screen">
+                        <div class="container-fluid mid_sec">
+                          <div class=" col-md-6 ">
+                            <div class="text_sec_update">
+                            <div class="txt_sec easy_portability_text_ani">
+                            <h2>Easy portability.</h2>
+                            <p>Along with wheels and an extendable handle to move the BirdBox around like a trolley, it also comes with an attachment to carry it around as a backpack.</p>
+                          </div>
+                          </div>
+                          </div>
+                          <div class="img_sec_update col-md-6">
+                            <video class="video-easy_portability_ani" alt="BirdBox" title="BirdBox" src="/assets/products/birdbox/video/easy_portability.mp4" autoplay muted loop></video>
+                            
+                            <!-- <img src="/assets/images/revamped/birdbox/desktop/easy_portability.webp" alt="proxgy"> -->
+                          
+                          
+                          
+                          
+                          </div>
+                        </div>
+                        </section>
+<div style="background-color: black;">
+                      <section  class="panel white align-top multiple_connectivity_birdbox w-full min-h-screen  flex flex-col-reverse  justify-center items-start">
+                        <div class="container multiple_connectivity_card flex flex-col-reverse  justify-center items-start ">
+                          <div class="w-full flex  teaser_sec_locator">
+                            <div class="grid grid-cols-2 gap-5">
+                              <div class="statickpage_birdbox_multipleconnection_card_item fiveg_card" >
+                                <img alt="5G" src="/assets/images/revamped/birdbox/desktop/wi-fi.webp"  >
+                                <p class="text-sm">
+                                </p>
+                              </div>
+                              <div class="statickpage_birdbox_multipleconnection_card_item fourg_card" >
+                                <img alt="4G" src="/assets/images/revamped/lockator/4g.webp"  >
+                                <p class="text-sm">
+                                </p>
+                              </div>
+                              
+                              <div class="statickpage_birdbox_multipleconnection_card_item esim_card" >
+                                <img alt="Esim" src="/assets/images/revamped/birdbox/desktop/gps.webp">
+                                <p class="text-sm">GPS L1 Support
+                                </p>
+                              </div>
+                              <div class="statickpage_birdbox_multipleconnection_card_item bluetooth_card" >
+                                <h3>IRNSS with S-Band Support</h3>
+                                <p class="text-sm">
+                                  
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="w-full mb-16 text-center text-right text_sec1 multiple_connectivity_birdbox_text multiple_connectivity_birdbox_text_ani">
+                            <h2 >Multiple connectivity options.
+                              </h1>
+                            <p class="text-sm text-2xl mt-6" >With WiFi, 4G, GPS L1 and IRNSS support, BirdBox stays connected even in the remotest of the conditions.
+                            </p>
+                          </div>
+                        </div>
+                      </section>
+
+
+
+                     
+
+                        <section class="birdbox_panel_top_desktop birdbox_black_bg_bottom_desktop birdbox_black_bg_bottom_desktop_ani h-full w-full">
+                           <!-- <div class="container-fluid mid_sec">
+                            <div class="text_sec_update col-md-6">
+                              <div class="txt_sec birdbox_black_bg_bottom_txt_ani">
+                              <h2>Too quiet to be true.</h2>
+                              <p>Once deployed, BirdBox operates as silently as a shadow lurking in the dark.</p>
+                            </div>
+                            </div>
+                            <div class="img_sec_update col-md-12"><img src="/assets/images/revamped/birdbox/desktop/birdbox_black_bg.webp" alt="proxgy"></div>
+                          </div>  -->
+
+                          <div class="home-slider owl-carousel js-fullheight ">
+                            <div class="slider-item js-fullheight" style="background-image:url(/assets/images/revamped/birdbox/desktop/birdbox_black_bg.webp);">
+                            
+                            <div class="container birdbox_black_bg_bottom_desktop">
+                              <div class="text_sec_update">
+                                <div class="txt_sec birdbox_black_bg_bottom_txt_ani">
+                                <h2>Too quiet to be true.</h2>
+                                <p>Once deployed, BirdBox operates in absolute silence.</p>
+                              </div>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="slider-item js-fullheight" style="background-image:url(/assets/images/revamped/birdbox/desktop/slide-2.webp);">
+                          
+                            </div>
+                            <div class="slider-item js-fullheight" style="background-image:url(/assets/images/revamped/birdbox/desktop/slider-3.webp);">
+                            
+                           
+                            </div>
+                            </div>
+
+                          </section>
+                        </div>
+
+                         
+  </div>
+
+  <div class="mobile_view" >
+
+    <section class="birdbox_panel_top  h-full w-full ">
+        <div class="img_sec_update">  <video title="BirdBox" src="/assets/products/birdbox/video/mobile_main_video.mp4" autoplay muted loop></video></div>
+      </section>
+
+      <section class="birdbox_panel adjustable_sec_birdbox_mobile h-full w-full ">
+        <div>
+          <div class="text_sec_update">
+            <h2>Adjustable height.</h2>
+            <p>10 to 15 meters adjustable height at the turn of a dial.</p>
+          </div>
+          <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/adjustable_height.webp" alt="proxgy"></div>
+        </div>
+      
+        </section>
+    
+        <section class="birdbox_panel proximity_sensor_sec_birdbox_mobile h-full w-full ">
+          <div>
+            <div class="text_sec_update">
+              <h2>Proximity sensor</h2>
+              <p>Proximity sensor on top of the extendable camera tower doesn't let the camera get damaged by any overhead articles.</p>
+            </div>
+            <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/proximity_sensor_mobile.webp" alt="proxgy"></div>
+          </div>
+          </section>
+
+          <section class="birdbox_panel eight_mp_dual_camera_sec_birdbox_mobile h-full w-full ">
+            <div>
+              <div class="text_sec_update">
+                <h2>8MP dual camera.</h2>
+                <p>To capture high definition imagery, BirdBox is equipped with two 8 megapixel cameras.</p>
+              </div>
+              <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/8mp_dual_camera_sec_mobile.webp" alt="proxgy"></div>
+            </div>
+            </section>
+
+
+            <section class="birdbox_panel three_sixty_recording_sec_birdbox_mobile h-full w-full ">
+              <div>
+                <div class="text_sec_update">
+                  <h2>360° A/V recording and streaming.</h2>
+                  <p>BirdBox records and streams a 360° audio and video from the bird's eye perspective.</p>
+                </div>
+                <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/360_camera_birdbox.webp" alt="proxgy"></div>
+              </div>
+            
+              </section>
+
+              <section class="birdbox_panel plenty_of_storage_sec_birdbox_mobile h-full w-full ">
+                <div>
+                  <div class="text_sec_update">
+                    <h2>Plenty of storage.</h2>
+                    <p>Recorded imagery for upto 8 days gets stored on the onboard storage.</p>
+                  </div>
+                  <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/plenty_of_storage_birdbox_mobile.webp" alt="proxgy"></div>
+                </div>
+              
+                </section>
+
+
+                <section class="birdbox_panel multilayered_protection_sec_birdbox_mobile h-full w-full ">
+                  <div>
+                    <div class="text_sec_update">
+                      <h2>Multi layered protection.</h2>
+                      <p>The electronic components are safely and securely installed inside the BirdBox such that tampering with any of them is near impossible.</p>
+                    </div>
+                    <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/multilayered_protection_birdbox1.webp" alt="proxgy"></div>
+                  </div>
+                  </section>
+   
+  
+                  <section class="birdbox_panel self_wipe_mode_sec_birdbox_mobile h-full w-full ">
+                    <div>
+                      <div class="text_sec_update">
+                        <h2>Self wipe mode.</h2>
+                        <p>In case the BirdBox detects any serious tampering or damage inflicted on its electronics, the “Self Wipe Mode” gets automatically activated, where the storage is wiped clean and the intruder cannot get hold of any information.</p>
+                      </div>
+                      <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/self_wipe_mode_birdbox_mobile.webp" alt="proxgy"></div>
+                    </div>
+                  
+                    </section>
+
+                    <section class="birdbox_panel multilevel_scurity_sec_birdbox_mobile h-full w-full ">
+                      <div>
+                        <div class="text_sec_update">
+                          <h2>Multi level security access.</h2>
+                          <p>The  control panel to use the BirdBox is accessible after unlocking the rotatory number lock on the cover lid of the control panel.</p>
+                        </div>
+                        <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/multilevel_security_birdbox_mobile.webp" alt="proxgy"></div>
+                      </div>
+                    
+                      </section>
+
+                      <section class="birdbox_panel controls_sec_birdbox_mobile h-full w-full ">
+                        <div>
+                          <div class="text_sec_update">
+                            <h2>Controls</h2>
+                            <p>Intuitive controls for easy handling of the device.</p>
+                          </div>
+                          <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/controls_birdbox_mobile.webp" alt="proxgy"></div>
+                        </div>
+                      
+                        </section>
+
+                        <section class="birdbox_panel stability_sec_birdbox_mobile h-full w-full ">
+                          <div>
+                            <div class="text_sec_update">
+                              <h2>Stability in all terrains.</h2>
+                              <p>With the multi-functional levelers, BirdBox can be deployed on the most uneven surfaces without worrying about its stabiltiy.</p>
+                            </div>
+                            <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/stability_mobile_birdbox.webp" alt="proxgy"></div>
+                          </div>
+                        
+                          </section>
+
+
+                          <section class="birdbox_panel built_to_last_sec_birdbox_mobile h-full w-full ">
+                            <div>
+                              <div class="text_sec_update">
+                                <h2>Built to last.</h2>
+                                <p>Due to its long duration outdoor use, BirdBox is IP68 rated weatherproof device built for rugged usage.</p>
+                              </div>
+                              <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/built_to_last_birdbox_mobile.webp" alt="proxgy"></div>
+                            </div>
+                          
+                            </section>
+
+
+                            <section class="birdbox_panel long_battery_life_sec_birdbox_mobile h-full w-full ">
+                              <div>
+                                <div class="text_sec_update">
+                                  <h2>Long battery life.</h2>
+                                  <p>The LiFePO4 battery makes sure the BirdBox keeps running non-stop for upto 8 days at a stretch.</p>
+                                </div>
+                                <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/long_battery_life_birdbox_mobile.webp" alt="proxgy"></div>
+                              </div>
+                            
+                              </section>
+
+
+                              <section class="birdbox_panel waterproff_charging_sec_birdbox_mobile h-full w-full ">
+                                <div>
+                                  <div class="text_sec_update">
+                                    <h2>Weatherproof charging</h2>
+                                    <p>For times when the BirdBox needs to be deployed for longer than usual duration, it can be connected to an auxiliary power source via the weatherproof connector provided on-board.
+                                      This connector also doubles up as its charger.</p>
+                                  </div>
+                                  <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/waterproff_charging_birdbox_mobile.webp" alt="proxgy"></div>
+                                </div>
+                              
+                                </section>
+
+
+                                <section  class="panel white align-top multiple_connectivity_sec_birdbox_mobile">
+                                  <div class="container flex flex-col-reverse  justify-center items-start teaser_sec_txt_sec ">
+                                    <div class="w-full flex justify-center teaser_sec_locator">
+                                      <div class="grid grid-cols-2 gap-5">
+                                        <div class="statickpage_lockator_multipleconnection_card_item fiveg_card" >
+                                          <img alt="5G" src="/assets/images/revamped/birdbox/wifi_multiple_connectivity_birdbox_mobile.webp"  >
+                                         
+                                        </div>
+                                        <div class="statickpage_lockator_multipleconnection_card_item fourg_card" >
+                                          <img alt="4G" src="/assets/images/revamped/lockator/4g.webp"  >
+                                          <p class="text-sm">
+                                          </p>
+                                        </div>
+                                      
+                                        <div class="statickpage_lockator_multipleconnection_card_item esim_card" >
+                                          <img alt="Esim" src="/assets/images/revamped/birdbox/gps_icon_multiple_birdbox_mobile.webp">
+                                          <p style="max-width: 112px;" class="text-sm">GPS L1 Support
+                                          </p>
+                                        </div>
+                                        <div class="statickpage_lockator_multipleconnection_card_item bluetooth_card" >
+                                         
+                                          <p class="text-sm">IRNSS with S-Band Support
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="w-full mb-16 text-center text_sec1 multiple_connectivity_text">
+                                      <h2 class="text1" >Multiple connectivity options.
+                                        </h1>
+                                      <p class="text-sm text-2xl mt-6 text2" >With WiFi, 4G, GPS L1 and IRNSS support, BirdBox stays connected even in the remotest of the conditions.
+                                      </p>
+                                    </div>
+                                  </div>
+                                
+                                </section>
+
+
+                                <section class="birdbox_panel easy_portability_sec_birdbox_mobile h-full w-full ">
+                                  <div>
+                                    <div class="text_sec_update">
+                                      <h2>Easy portability.</h2>
+                                      <p>Along with wheels and an extendable handle to move the BirdBox around like a trolley, it also comes with an attachment to carry it around as a backpack.</p>
+                                    </div>
+                                    <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/easy_portability_birdbox_mobile.webp" alt="proxgy"></div>
+                                  </div>
+                                  </section>
+
+                                  <section class="birdbox_panel too_quiet_sec_birdbox_mobile h-full w-full ">
+                                    <div>
+                                      <div class="text_sec_update">
+                                        <h2>Too quiet to be true.</h2>
+                                        <p>Once deployed, BirdBox operates in absolute silence.</p>
+                                      </div>
+                                      <div class="img_sec_update"><img src="/assets/images/revamped/birdbox/to_quit_to_true_birdbox_mobile.webp" alt="proxgy"></div>
+                                    </div>
+                                  
+                                    </section>
+   
+                                  </div>
+    
+    <footer
+    class="overflow-hidden bg-[#212121] flex flex-col   text-[6px] leading-[7.31px] text-center xl:text-left text-[#f9f9f9] xl:text-sm xl:leading-[17px] gap-y-2 px-14 lg:px-20 2xl:px-44 py-4"
+  style="    background-color: rgb(33 33 33 /1);
+  color: white;
+  font-size: 14px;position: relative;
+    top: -1px;"
+    >
+    <div class="container-fluid pe-0 ps-0">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <p class="font-medium xl:font-regular">
+            Copyright © 2023 Everywhere as a Service Private Limited <sup>&#174</sup>. All Rights
+            Reserved
+          </p>
+          <p class="font-semibold xl:font-medium">
+            All the Logos used are registered trademarks of their respective
+            companies.
+          </p>
+        </div>
+        <div class="col-2">
+          <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+        <div class="col-2">
+          
+            <a  href="/terms-of-use">Terms & Condition</a>
+         
+        </div>
+
+        <div class="col-2">
+            <div class="footer-links">
+              <a href="https://www.facebook.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/facebook.svg" alt="Facebook"></img></a>
+              <a href="https://twitter.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/twitter.svg" alt="twitter"></img></a>
+              <a href="https://www.linkedin.com/company/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/linkedin.svg" alt="linkedin"></img></a>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="/assets/js/birdbox.js"></script>
+  <script src="/dist/js/nav.js"></script>
+    <script src="/assets/slide/owl.carousel.min.js"></script>
+    <script src="/assets/slide/slider.js"></script>
+
+  
+  </body>
+</html>

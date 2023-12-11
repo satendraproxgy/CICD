@@ -1,0 +1,890 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sleefe :: Proxgy</title>
+
+
+    <meta charset="utf-8" />
+    <meta name="author" content="Sleefe :: Proxgy" />
+    <meta name="description" content="Revolutionary Smart Wearable :: PROXGY has developed Sleefe to provide immersive, handsfree, intelligent, safe, analytical solutions to blue collared work force to connect, collaborate and coordinate." />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <!-- Mobile Stuff -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Sleefe :: Proxgy" />
+    <!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png"> -->
+
+    <!-- Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Sleefe :: Proxgy" />
+    <link rel="apple-touch-icon" href="/assets/favicon.png" />
+
+    <!-- Windows 8 -->
+    <meta name="msapplication-TileImage" content="/assets/favicon.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+
+    <!-- General Tags -->
+    <meta name="theme-color" content="#000000" />
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/dist/css/global.css" rel="stylesheet" />
+    <link href="/dist/css/sleefe.css" rel="stylesheet" />
+    <link href="/dist/css/nav.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/responsive.css"/>
+  </head>
+  <body class="transition_body">
+    <div
+      id="preloader"
+      class="fixed w-full h-full top-0 left-0 bg-[#F0F0F0] z-[9999] pointer-events-none desktop_view"
+    >
+      <div class="w-full h-full flex justify-center items-center relative">
+        <div class="absolute aspect-square w-[50px] xl:w-[150px]">
+          <img
+            src="/assets/loader-line.png"
+            alt="loader image line art"
+            class="queue__assets absolute object-contain w-full h-full object-center loader--line"
+          />
+          <img
+            src="/assets/loader-logo.png"
+            alt="loader image logo"
+            class="queue__assets absolute object-contain w-full h-full object-center loader--logo"
+          />
+        </div>
+      </div>
+    </div>
+    <header class="nav-down" id="navbarSupportedContent1">
+      <nav class="navbar navbar-expand-lg navbar-light  " >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/assets/logo.png" alt="proxgy" width="30" height="100%">
+          </a>
+          <button class="nav-link-mobile mobileonly" type="button"
+          onclick="productmenu_mobile()" >Products <img src="/assets/icons/dropdown_arrow.svg"/></button>
+  
+                  <button
+            class="navbar-toggler"
+            type="button"
+            onclick="myFunction()"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-center" id="navbarSupportedContentMobile">
+            <ul class="navbar-nav mr-40px">
+              <li class="nav-item navItemFont">
+                <a
+                  class="nav-link "
+                  href="/products/smarthat.html" title="SmartHat &#174"
+                  >SmartHat <sup>&#174</sup></a
+                >
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/sleefe.html" title="Sleefe &#174">Sleefe <sup>&#174</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/lockator.html" title="Lockator &#8482;">Lockator <sup class="tm_sup">&#8482;</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/audiocube.html" title="AudioCube &#8482;">AudioCube <sup class="tm_sup">&#8482;</sup> </a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/airhat.html" title="AirHat &#174">AirHat <sup>&#174</sup></a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/birdbox.html" title="BirdBox &#174">BirdBox <sup>&#8482;</sup></a>
+              </li>
+            </ul>
+  
+           
+  
+          
+          </div>
+          <button
+          class="navbar-toggler navbar-toggler-icon_desktop"
+          type="button"
+          onclick="open_sub_category()"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+         
+          <div class="collapse navbar-collapse mobileonly" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <ul class="navbar-nav mr-40px">
+              <li class="nav-item navItemFont">
+                <a class="nav-link " href="/products/aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/careers.html">Join Us</a>
+              </li>
+            
+              <li class="nav-item navItemFont">
+                <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+              </li>
+            </ul>
+  
+            <button
+            class="navbar-toggler navbar-toggler-icon_desktop"
+            type="button"
+            onclick="open_sub_category()"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          
+          </div>
+        </div>
+      </nav>
+  
+      <div id="navbarSupportedContentsubcategory" class="sub_category">
+        <ul class="navbar-nav">
+          <li class="nav-item navItemFont">
+            <a class="nav-link " href="/products/aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item navItemFont">
+            <a class="nav-link" href="/products/careers.html">Join Us</a>
+          </li>
+        
+          <li class="nav-item navItemFont">
+            <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+          </li>
+        </ul>
+  
+      </div>
+    </header>
+
+    <h1 style="display: none;">Sleefe :: Proxgy</h1>
+    <div class="desktop_view">
+      <div id="overlayContentDesktop"  onclick="remove_sub_category_desktop()" class="overlay_desktop"></div>
+      </div>
+      <div class="mobile_view" >
+        <div id="overlayContentMobile"  onclick="remove_sub_category()" class="overlay_mobile"></div>
+        </div>
+    <main>
+      <section class="h-full w-full desktop_view">
+        <div class="relative h-screen w-full">
+          <img
+          src="/assets/images/revamped/About/lexus_design_award.webp"
+          alt="Sleefe &#174" title="Sleefe &#174"
+          class="award_img"
+        />
+          <video
+            src="/assets/products/sleefe/landing.mp4"
+            autoplay
+            loop
+            muted
+            class="queue__assets absolute h-full w-full object-cover object-[30%_bottom] lg:object-center"
+          ></video>
+        </div>
+      </section>
+
+      <section class="h-full w-full mobile_view">
+        <div class="relative h-screen w-full">
+          <img
+          src="/assets/images/revamped/About/lexus_design_award.webp"
+          alt="Sleefe &#174" title="Sleefe &#174"
+          class="award_img"
+        />
+          <video
+            src="/assets/products/sleefe/Sleefe_Mobile _Version_Video.mp4"
+            autoplay
+            loop
+            muted
+            class="queue__assets absolute h-full w-full object-cover object-[30%_bottom] lg:object-center"
+          ></video>
+        </div>
+      </section>
+      <section class="h-full w-full bg-[#f0f0f0] desktop_view">
+        <div class="relative min-h-screen w-full lg:h-screen" id="introRef">
+          <div class="absolute bottom-0 h-[50vh] w-full md:h-[90vh] xl:h-full">
+            <img
+              src="/assets/products/sleefe/sleefe-cap.png"
+              alt="product sleefe"
+              class="queue__assets absolute h-full w-full object-cover object-[0%_bottom] lg:object-contain lg:object-right-bottom"
+            />
+          </div>
+          <div
+            class="relative flex w-full flex-col items-center gap-y-6 px-8 pt-20 text-center xl:pt-56"
+          >
+            <h1
+              class="bg-gradient-to-r from-[#283891] via-[#DDDDDD] to-[#2B3B94] bg-clip-text text-4xl font-semibold text-transparent xl:text-6xl xl:font-bold"
+            >
+              Revolutionary Smart Wearable.
+            </h1>
+            <p
+              class="w-full text-sm font-normal text-[#333333] xl:w-[600px] xl:text-2xl xl:text-[#CDCDCD]"
+            >
+            PROXGY has developed Sleefe to provide immersive, handsfree, intelligent, safe, analytical solutions to blue collared work force to connect, collaborate and coordinate.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="relative w-full bg-[#cfcfcf] px-4 desktop_view">
+        <div id="pov--container" class="relative w-full overflow-hidden">
+          <div class="relative h-full w-full" id="povRef">
+            <div class="relative top-[5.5%] h-screen w-full overflow-hidden">
+              <div
+                class="relative w-full h-full overflow-hidden"
+                id="sleefeContainer"
+              >
+                <div
+                  id="sleefe__frames"
+                  class="!left-0 w-full h-full overflow-hidden"
+                ></div>
+              </div>
+            </div>
+            <div
+              class="absolute top-0 left-0 h-full w-full overflow-hidden"
+              id="povContentRef"
+            >
+              <div
+                class="pointer-events-none absolute top-32 h-full w-full lg:left-1/2 lg:-translate-x-1/2 xl:w-1/2 2xl:w-[1034px]"
+                id="pov1Ref"
+              >
+                <div
+                  class="flex flex-col items-center text-[#212121] xl:flex-row xl:justify-between"
+                >
+                  <div
+                    class="pov1__item translate-y-[100%] text-center text-4xl font-bold opacity-0 lg:text-left lg:text-3xl 2xl:text-5xl"
+                  >
+                    Perfect Point of View
+                    <strong class="text-[#FF4F00]"> AV communication. </strong>
+                  </div>
+                  <p
+                    class="pov1__item translate-y-[100%] text-center text-sm opacity-0 lg:text-right lg:text-lg 2xl:text-2xl"
+                  >
+                    Front camera with Infrared Sensor for low-light image
+                    capturing and video recording ability.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="pointer-events-none absolute top-32 h-full w-full lg:left-1/2 lg:-translate-x-1/2 xl:w-1/2 2xl:w-[1034px]"
+                id="pov2Ref"
+              >
+                <div
+                  class="flex flex-row-reverse items-center justify-between text-[#212121]"
+                >
+                  <div
+                    class="pov2__item translate-y-[100%] text-right text-4xl font-bold opacity-0 lg:text-3xl 2xl:text-5xl"
+                  >
+                    Crystal clear
+                    <strong class="text-[#FF4F00]">image.</strong>
+                  </div>
+                  <p
+                    class="pov2__item translate-y-[100%] text-left text-sm opacity-0 lg:text-lg 2xl:text-2xl 2xl:pr-[17rem]"
+                  >
+                    Video streaming and recording upto full HD 1920X1080
+                  </p>
+                </div>
+              </div>
+              <div
+                class="pointer-events-none absolute top-32 h-full w-full lg:left-1/2 lg:-translate-x-1/2 xl:w-1/2 2xl:w-[1034px]"
+                id="pov3Ref"
+              >
+                <div
+                  class="flex flex-row-reverse items-center justify-between text-[#212121]"
+                >
+                  <div
+                    class="pov3__item translate-y-[100%] text-right text-4xl font-bold opacity-0 lg:text-3xl 2xl:text-5xl"
+                  >
+                    Up to <strong class="text-[#FF4F00]">16</strong> channels.
+                  </div>
+                  <p
+                    class="pov3__item translate-y-[100%] text-left text-sm opacity-0 lg:text-lg 2xl:text-2xl 2xl:pr-[17rem]"
+                  >
+                    With accessible ergonomic radio switch right below the helm
+                    of the cap, switching between radio communication channels
+                    is as easy as it gets for the user.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sticky bottom-0 h-screen w-[calc(100%+2rem)] -translate-x-[1rem] bg-[#111111]"
+          id="povCompareRef"
+        >
+          <div
+            class="pov--compare relative h-full w-full overflow-hidden xl:top-[25%]"
+          >
+            <img
+              src="/assets/products/sleefe/sleefe-cap-down-1.png"
+              alt=""
+              class="queue__assets object-contain pov--img h-full w-full overflow-hidden xl:scale-[1.32]"
+            />
+          </div>
+          <div
+            class=" cap_down_txt pointer-events-none absolute top-32 block w-full lg:left-1/2 lg:bottom-32 lg:-translate-x-1/2 xl:top-auto xl:w-1/2 2xl:w-[1034px]"
+          >
+            <div
+              class="flex flex-col items-center justify-between text-white lg:flex-row-reverse"
+            >
+              <div
+                class="povcompare__item w-full translate-y-[100%] text-center text-4xl font-bold opacity-0 lg:w-1/2 lg:text-right lg:text-5xl xl:text-5xl"
+              >
+                Safety <strong class="text-[#FF4F00]">Titanium</strong> clip.
+              </div>
+              <p
+                class="povcompare__item w-full translate-y-[100%] text-center text-sm opacity-0 lg:w-1/2 lg:text-left lg:text-lg 2xl:text-2xl"
+              >
+                Easily slides and sits comfortably onto any baseball cap. The
+                titanium clip ensures a long lasting and durable usage, tested
+                for over a million cycles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section
+        class="relative w-full overflow-x-hidden overflow-y-hidden bg-[#cfcfcf] desktop_view"
+        id="deviceContainer"
+      >
+        <div
+          class="absolute top-0 left-1/2 h-full w-full -translate-x-1/2 overflow-hidden xl:w-1/2 2xl:w-[1034px]"
+          id="povDeviceRef"
+        >
+          <div
+            class="povdevice__block absolute top-0 left-0 block h-full w-full"
+          >
+            <div
+              class="povdevice__blockitem loud_txt relative top-[297px] flex h-screen flex-col items-end justify-start gap-y-6 text-[#212121]"
+            >
+              <div
+                class="povdevice__item w-full text-right text-4xl font-bold lg:w-1/2 lg:text-5xl xl:text-5xl"
+              >
+                <strong class="text-[#FF4F00]">Loud.</strong> Clear.
+              </div>
+              <p
+                class="povdevice__item w-full text-right text-sm text-[#333333] lg:w-1/2 lg:text-lg 2xl:text-2xl"
+              >
+                In built Mic and speakers for audio communication. A dedicated
+                volume button is also provided so no matter how loud the
+                environment gets, Sleefe always delivers.
+              </p>
+            </div>
+          </div>
+          <div
+            class="povdevice__block absolute top-0 left-0 block h-full w-full"
+          >
+            <div
+              class="povdevice__blockitem ease_txt relative top-[297px] flex h-screen flex-col items-end justify-start gap-y-6 text-[#212121]"
+            >
+              <div
+                class="povdevice__item w-full text-right text-4xl font-bold lg:w-1/2 lg:text-5xl xl:text-5xl"
+              >
+                Ease of <strong class="text-[#FF4F00]">use.</strong>
+              </div>
+              <p
+                class="povdevice__item w-full text-right text-sm text-[#333333] lg:w-1/2 lg:text-lg 2xl:text-2xl"
+              >
+                Tactile buttons for easy access and usability
+              </p>
+            </div>
+          </div>
+          <div
+            class="povdevice__block absolute top-0 left-0 block h-full w-full"
+          >
+            <div
+              class="povdevice__blockitem faster_charging_txt relative flex h-screen flex-col items-end justify-center gap-y-6 text-[#212121]"
+            >
+              <div
+                class="povdevice__item w-full text-right text-4xl font-bold lg:w-1/2 lg:text-5xl xl:text-5xl"
+              >
+                Faster <strong class="text-[#FF4F00]">charging.</strong>
+              </div>
+              <p
+                class="povdevice__item w-full text-right text-sm text-[#333333] lg:w-1/2 lg:text-lg 2xl:text-2xl"
+              >
+                USB type-C for faster charging.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="pointer-events-none relative top-0 h-screen w-full overflow-hidden"
+          id="deviceRef"
+        >
+          <div
+            class="absolute top-0 right-0 h-screen w-1/2 opacity-0"
+            id="cableRef"
+          >
+            <img
+              alt="cable"
+              src="/assets/products/sleefe/cable.png"
+              fill
+              class="queue__assets h-full w-full origin-center translate-x-[44%] translate-y-[3%] -rotate-[53.71deg] scale-[1.25] object-cover object-center"
+            />
+          </div>
+          <canvas
+            id="canvas__device"
+            class="-translate-x-[1/2] absolute top-0 left-1/2"
+          ></canvas>
+        </div>
+      </section>
+
+      <section class="sleefe_panel revolutionary_sec_mobile h-full w-full mobile_view">
+        <div>
+          <div class="text_sec_update">
+            <h2>Revolutionary Smart Wearable.</h2>
+            <p>Providing immersive, handsfree, intelligent, safe, analytical solutions to blue collared work force to connect, collaborate and coordinate.</p>
+          </div>
+          <div class="img_sec_update"><img src="/assets/images/revamped/proy/revolutionary_mobile.png" alt="proxgy"></div>
+        </div>
+      
+        </section>
+
+      <section class="sleefe_panel sleefe_front_sec_mobile h-full w-full mobile_view">
+        <div>
+          <div class="text_sec_update quotes">
+            <h2>Perfect point of view <span>AV communication.</span></h2>
+            <div class="relative descript_txt">
+              <p id="fadetext1" class="absolute">Front camera with Infrared Sensor for low-light image capturing and video recording ability.</p>
+            <p id="fadetext2" class="absolute">Video streaming and recording upto full HD 1920X1080</p>
+           
+            </div>
+            
+          </div>
+       
+          <div class="img_sec_update"><img src="/assets/images/revamped/proy/sleefe_front_view_mobile.png" alt="proxgy"></div>
+        </div>
+      
+        </section>
+
+        <section class="sleefe_panel upto_sec_mobile h-full w-full mobile_view">
+          <div>
+            <div class="text_sec_update">
+              <h2>Upto <span>16</span> channels.</h2>
+              <p>With accessible ergonomic radio switch right below the helm of the cap, switching between radio communication channels is as easy as it gets for the user.</p>
+            </div>
+            <div class="img_sec_update"><img src="/assets/images/revamped/proy/upto_15.png" alt="proxgy"></div>
+          </div>
+        
+          </section>
+
+          <section class="sleefe_panel safety_titanium_sec_mobile h-full w-full mobile_view">
+            <div>
+              <div class="text_sec_update">
+                <h2>Safety <span>Titanium</span> clip.</h2>
+                <p>Easily slides and sits comfortably onto any baseball cap.</p>
+              </div>
+              <div class="img_sec_update"><img src="/assets/images/revamped/proy/sleefe_cap_mobile.png" alt="proxgy"></div>
+            </div>
+          
+            </section>
+
+            <section class="sleefe_panel loud_clear_sec_mobile h-full w-full mobile_view">
+              <div>
+                <div class="text_sec_update">
+                  <h2><span>Loud.</span> Clear.</h2>
+                  <p>In built Mic and speakers for audio communication. A dedicated volume button is also provided so no matter how loud the environment gets, Sleefe always delivers.</p>
+                </div>
+                <div class="img_sec_update"><img src="/assets/images/revamped/proy/loud_clear_mobile.png" alt="proxgy"></div>
+              </div>
+            
+              </section>
+
+              <section class="sleefe_panel ease_of_us_sec_mobile h-full w-full mobile_view">
+                <div>
+                  <div class="text_sec_update">
+                    <h2>Ease of <span>use.</span></h2>
+                    <p>Tactile buttons for easy access and usability.</p>
+                  </div>
+                  <div class="img_sec_update"><img src="/assets/images/revamped/proy/loud_clear_mobile.png" alt="proxgy"></div>
+                </div>
+              
+                </section>
+
+                <section class="sleefe_panel faster_charging_sec_mobile h-full w-full mobile_view">
+                  <div>
+                    <div class="text_sec_update">
+                      <h2>Faster <span>Charging.</span></h2>
+                      <p>USB type-C for faster charging.</p>
+                    </div>
+                    <div class="img_sec_update"><img src="/assets/images/revamped/proy/faster_charging_sec_mobile.png" alt="proxgy"></div>
+                  </div>
+                
+                  </section>
+
+
+                  <section
+                  class=" mobile_view relative use_cases_sleefe min-h-screen w-full bg-[url('/assets/products/sleefe/banner-usecase.jpg')] bg-cover bg-center bg-no-repeat xl:h-screen"
+                  
+                >
+                  <div
+                    class="usecase_grid_sleefe mx-auto flex h-full w-full flex-col items-start justify-center gap-y-5 xl:gap-y-6 px-4 lg:px-20 xl:px-0 xl:w-[1000px] 3xl:w-[1034px]"
+                  >
+                    <h2
+                      class="usecase__title text-left text-4xl font-semibold 2xl:text-6xl text-[#FAFAFA] xl:text-[#333333]"
+                    >
+                      Use Cases
+                    </h2>
+                    <div
+                      class="usecase__grids gap-2 xl:gap-4 3xl:gap-6 grid grid-cols-2 xl:grid-cols-4"
+                    >
+                      <div
+                        class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-center items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+                      >
+                        <h3
+                          class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+                        >
+                          Proof of Delivery
+                        </h3>
+                        <p
+                          class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+                        >
+                          Geotagging and scan engine provide perfect proof of delivery for
+                          end to end logistics.
+                        </p>
+                      </div>
+                      <div
+                        class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-center items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+                      >
+                        <h3
+                          class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl">
+                          Remote Assistance
+                        </h3>
+                        <p
+                          class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+                        >
+                          Built in workflows provide assistance on daily tasks to workers.
+                        </p>
+                      </div>
+                      <div
+                        class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-center items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+                      >
+                        <h3
+                          class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+                        >
+                          Remote Collaboration
+                        </h3>
+                        <p
+                          class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+                        >
+                          With its AV communication capabilities Sleefe offers workers and
+                          supervisors to connect and collaborate remotely.
+                        </p>
+                      </div>
+                      <div
+                        class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-center items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+                      >
+                        <h3
+                          class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+                        >
+                          Inspection
+                        </h3>
+                        <p
+                          class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+                        >
+                          POV recordings offer HD videos for post facto analysis.
+                        </p>
+                      </div>
+                      <div
+                        class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-center items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+                      >
+                        <h3
+                          class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+                        >
+                          Surveillance
+                        </h3>
+                        <p
+                          class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+                        >
+                          With its light weight designs and PTT communication, Sleeve
+                          offers perfect amalgamation of communication and recording
+                          devices.
+                        </p>
+                      </div>
+                     
+                    </div>
+                  </div>
+                  <div class="container1">
+                    <div
+                    type="button" 
+                    class="get_design_btn_mobile " onclick="btnClick1()" >
+                  
+                    <div id="close_btn_mobile">
+                      <div class="active_btn_sec_mobile">  <span>Get the design story behind Sleefe</span>
+                        <img class="img1"  src="/assets/images/revamped/plus_icon.png"/></div>
+                  
+                        <div class="close_btn_sec_mobile">  <span>Close</span>
+                          <img class="img1"  src="/assets/images/revamped/close_icon.png"/></div>
+                    </div>
+                      </div>
+                  </div>
+                 
+          
+                    <div id="hideLastSection"></div>
+                    <div id="toggleLastSection"></div>
+          
+                    
+                 
+                </section>        
+                  
+      <section
+        class=" desktop_view relative use_cases_sleefe min-h-screen w-full bg-[url('/assets/products/sleefe/banner-usecase.jpg')] bg-cover bg-center bg-no-repeat xl:h-screen"
+        id="usecaseRef"
+      >
+        <div
+          class="mx-auto flex h-full w-full flex-col items-start justify-center gap-y-5 xl:gap-y-6 px-4 lg:px-20 xl:px-0 xl:w-[1000px] 3xl:w-[1034px]"
+        >
+          <h2
+            class="usecase__title text-left text-4xl font-semibold 2xl:text-6xl text-[#FAFAFA] xl:text-[#333333]"
+          >
+            Use Cases
+          </h2>
+          <div
+            class="usecase__grids gap-2 xl:gap-4 3xl:gap-6 grid grid-cols-2 xl:grid-cols-4"
+          >
+            <div
+              class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-start items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+            >
+              <h3
+                class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+              >
+                Proof of Delivery
+              </h3>
+              <p
+                class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+              >
+                Geotagging and scan engine provide perfect proof of delivery for
+                end to end logistics.
+              </p>
+            </div>
+            <div
+              class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-start items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+            >
+              <h3
+                class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl">
+                Remote Assistance
+              </h3>
+              <p
+                class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+              >
+                Built in workflows provide assistance on daily tasks to workers.
+              </p>
+            </div>
+            <div
+              class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-start items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+            >
+              <h3
+                class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+              >
+                Remote Collaboration
+              </h3>
+              <p
+                class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+              >
+                With its AV communication capabilities Sleefe offers workers and
+                supervisors to connect and collaborate remotely.
+              </p>
+            </div>
+            <div
+              class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-start items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+            >
+              <h3
+                class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+              >
+                Inspection
+              </h3>
+              <p
+                class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+              >
+                POV recordings offer HD videos for post facto analysis.
+              </p>
+            </div>
+            <div
+              class="usecase__grid p-2 xl:p-4 bg-[#f8f8f8] gap-y-2.5 flex flex-col w-full aspect-square justify-start items-start shadow-[2px_4px_5px_rgba(73,73,73,0.15)] rounded-[10px]"
+            >
+              <h3
+                class="text-[#212121] font-semibold xl:font-bold text-sm lg:text-lg xl:text-xl 3xl:text-2xl"
+              >
+                Surveillance
+              </h3>
+              <p
+                class="text-[#333333] font-light xl:font-normal text-[10px] xl:text-sm"
+              >
+                With its light weight designs and PTT communication, Sleeve
+                offers perfect amalgamation of communication and recording
+                devices.
+              </p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="container1">
+          <div
+          type="button" 
+          class="get_design_btn_desktop bottom_75" onclick="btnClick()" >
+        
+          <div id="close_btn_desktop">
+            <div class="active_btn_sec_desktop">  <span>Get the design story behind Sleefe</span>
+              <img class="img1"  src="/assets/images/revamped/plus_icon.png"/></div>
+        
+              <div class="close_btn_sec_desktop">  <span>Close</span>
+                <img class="img1"  src="/assets/images/revamped/close_icon.png"/></div>
+          </div>
+            </div>
+        </div>
+       
+
+          <div id="hideLastSection"></div>
+          <div id="toggleLastSection"></div>
+
+          
+       
+      </section>
+      <section id="lastSection" ></section>
+
+      <section class="mobile_view w3-animate-top panel design_sec_animation" id="design_story_sec_mobile" >
+        <div
+          class="lastsection__container flex relative mx-auto h-[calc(100vh-100px)] w-full px-4 py-20 transition-all xl:flex-row-reverse lg:px-20 xl:px-0 xl:py-0 xl:w-[1034px]"
+        >
+          <div
+            class="lastsection__thumb absolute w-full  transition-all duration-1000 lg:relative xl:w-1/2"
+          >
+            <img
+              src="/assets/products/sleefe/design-story-thumb.png"
+              alt="design story"
+              class="queue__assets w-full h-full object-contain"
+            />
+          </div>
+          <div
+            class="flex h-full w-1/2 flex-col items-start justify-center gap-y-4 text_sec"
+          >
+            <h2
+              class="text-4xl font-semibold text-[#333333] lg:text-4xl 2xl:text-6xl xl:font-bold"
+            >
+              Designed to perfection.
+            </h2>
+            <p
+              class="text-sm font-normal text-[#333333] lg:text-lg 2xl:text-2xl"
+            >
+              Meticulously researched and thought upon design decisions shaped
+              the Sleefe to cater to all the needs of its users.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class=" desktop_view w3-animate-top panel design_sec_animation" id="design_story_sec_desktop" >
+        <div
+          class="lastsection__container flex relative mx-auto h-[calc(100vh-100px)] w-full px-4 py-20 transition-all xl:flex-row-reverse lg:px-20 xl:px-0 xl:py-0 xl:w-[1034px]"
+        >
+          <div
+            class="lastsection__thumb absolute w-full  transition-all duration-1000 lg:relative xl:w-1/2"
+          >
+            <img
+              src="/assets/products/sleefe/design-story-thumb.png"
+              alt="design story"
+              class="queue__assets w-full h-full object-contain"
+            />
+          </div>
+          <div
+            class="flex h-full w-1/2 flex-col items-start justify-center gap-y-4 text_sec"
+          >
+            <h2
+              class="text-4xl mb-35 font-semibold text-[#333333] lg:text-4xl 2xl:text-6xl xl:font-bold"
+            >
+              Designed to perfection.
+            </h2>
+            <p
+              class="text-sm font-normal text-[#333333] lg:text-lg 2xl:text-2xl"
+            >
+              Meticulously researched and thought upon design decisions shaped
+              the Sleefe to cater to all the needs of its users.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+    class="overflow-hidden bg-[#212121] flex flex-col  text-[6px] leading-[7.31px] text-center xl:text-left text-[#f9f9f9] xl:text-sm xl:leading-[17px] gap-y-2 py-4"   
+    >
+    <div class="container-fluid pe-0 ps-0">
+      <div class="row align-items-center footer_sec">
+        <div class="col-6">
+          <p class="font-medium xl:font-regular">
+            Copyright © 2023 Everywhere as a Service Private Limited <sup>&#174</sup>. All Rights
+            Reserved
+          </p>
+          <p class="font-semibold xl:font-medium">
+            All the Logos used are registered trademarks of their respective
+            companies.
+          </p>
+        </div>
+        <div class="col-2">
+          <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+        <div class="col-2">
+          
+            <a  href="/terms-of-use">Terms & Condition</a>
+         
+        </div>
+
+        <div class="col-2">
+            <div class="footer-links">
+              <a href="https://www.facebook.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/facebook.svg" alt="Facebook"></img></a>
+              <a href="https://twitter.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/twitter.svg" alt="twitter"></img></a>
+              <a href="https://www.linkedin.com/company/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/linkedin.svg" alt="linkedin"></img></a>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </footer>
+  <script>
+    function btnClick1(){
+    document.getElementById('design_story_sec_mobile').classList.toggle("show_design_story_mobile");
+    document.getElementById('close_btn_mobile').classList.toggle("show_close_icon_mobile"); 
+  }
+  </script>
+ 
+  <script>
+    function btnClick(){
+    document.getElementById('design_story_sec_desktop').classList.toggle("show_design_story_desktop");
+    document.getElementById('close_btn_desktop').classList.toggle("show_close_icon_desktop"); 
+  }
+  </script>
+
+<script>
+  window.onload = function() {
+  var tl = new TimelineMax({
+    onComplete: function() {
+      this.restart();
+    }
+  });
+  tl
+    .from("#fadetext1", 2, { autoAlpha: 0 })
+    .to("#fadetext1", 0.8, { autoAlpha: 0 })
+    .from("#fadetext2", 2, { autoAlpha: 0 })
+    .to("#fadetext2", 0.8, { autoAlpha: 0 })
+};
+</script>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="/dist/js/sleefe-min.js"></script>
+    <script src="/dist/js/nav.js"></script>
+  </body>
+</html>

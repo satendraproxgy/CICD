@@ -1,0 +1,505 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="hideOvrFlowXMob">
+  <head>
+    <title>Audiocube :: Proxgy</title>
+
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Mobile Stuff -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="msapplication-tap-highlight" content="no" />
+
+<!-- Chrome on Android -->
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="application-name" content="AudioCube :: Proxgy" />
+<!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png"> -->
+
+<!-- Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-mobile-web-app-title" content="AudioCube :: Proxgy" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+
+    <meta name="author" content="AudioCube :: Proxgy" />
+    <meta name="description" content="AudioCube: Payment alert box by PROXGY which is dependable, reliable and trustworthy." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="/assets/css/customStyles.css"/>
+    <link rel="stylesheet" href="/assets/css/responsive.css"/>
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/customProy.css"/>
+    <link rel="stylesheet" href="/assets/css/audiocube.css"/>
+    <link rel="stylesheet" href="/dist/css/nav.css"  />
+
+
+    <script src="/assets/js/gsap.min.js"></script>
+    <script src="/assets/js/ScrollTrigger.min.js"></script>
+    <script src="/assets/js/TextPlugin.min.js"></script>
+
+
+       
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @media (min-width: 1400px){
+    .container{
+        max-width: 1032px;
+        width: 1032px;
+    }
+
+    .container2{
+        max-width: 1300px !important;
+        width: 1300px !important;
+    }
+
+    }
+    </style>
+    
+  </head>
+
+
+
+<body class="hideOvrFlowXMob transition_body">
+
+  <header class="nav-down" id="navbarSupportedContent1">
+    <nav class="navbar navbar-expand-lg navbar-light  " >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+        <img src="/assets/logo.png" alt="proxgy" width="30" height="100%">
+        </a>
+        <button class="nav-link-mobile mobileonly" type="button"
+        onclick="productmenu_mobile()">Products <img src="/assets/icons/dropdown_arrow.svg"/>
+        </button>
+
+        <button 
+        class="navbar-toggler"
+        type="button"
+        onclick="myFunction()">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-center" id="navbarSupportedContentMobile">
+          <ul class="navbar-nav mr-40px">
+            <li class="nav-item navItemFont">
+              <a
+                class="nav-link "
+                href="/products/smarthat.html" title="SmartHat &#174"
+                >SmartHat <sup>&#174</sup></a
+              >
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/sleefe.html" title="Sleefe &#174">Sleefe <sup>&#174</sup></a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/lockator.html" title="Lockator &#8482;">Lockator <sup class="tm_sup">&#8482;</sup></a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/audiocube.html" title="AudioCube &#8482;">AudioCube <sup class="tm_sup">&#8482;</sup> </a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/airhat.html" title="AirHat &#174">AirHat <sup>&#174</sup></a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/birdbox.html" title="BirdBox &#174">BirdBox <sup>&#8482;</sup></a>
+            </li>
+          </ul>
+
+         
+
+        
+        </div>
+        <button
+        class="navbar-toggler navbar-toggler-icon_desktop"
+        type="button"
+        onclick="open_sub_category()"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       
+        <div class="collapse navbar-collapse mobileonly" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <ul class="navbar-nav">
+            <li class="nav-item navItemFont">
+              <a class="nav-link " href="/products/aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/careers.html">Join Us</a>
+            </li>
+          
+            <li class="nav-item navItemFont">
+              <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+            </li>
+          </ul>
+
+          
+
+        
+        </div>
+      </div>
+    </nav>
+
+    <div id="navbarSupportedContentsubcategory" class="sub_category">
+      <ul class="navbar-nav">
+        <li class="nav-item navItemFont">
+          <a class="nav-link " href="/products/aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item navItemFont">
+          <a class="nav-link" href="/products/careers.html">Join Us</a>
+        </li>
+      
+        <li class="nav-item navItemFont">
+          <a class="nav-link" href="/products/contactus.html">Contact Us</a>
+        </li>
+      </ul>
+
+    </div>
+  </header>
+    
+  <h1 style="display: none;">AudioCube - Proxgy</h1>
+
+  <div class="desktop_view">
+    <div id="overlayContentDesktop"  onclick="remove_sub_category_desktop()" class="overlay_desktop"></div>
+    </div>
+    <div class="mobile_view" >
+      <div id="overlayContentMobile"  onclick="remove_sub_category()" class="overlay_mobile"></div>
+      </div>
+  <div>
+  <section class=" panel desktop_view ">
+    <div class="fullScreenVideoBg">
+      <video src="/assets/videos/revamped/soundbox_feature_landing_vid.mp4" alt="AudioCube" title="AudioCube" autoplay muted loop></video>
+    </div>
+  </section>
+
+  <section class=" panel mobile_view ">
+    <div class="fullScreenVideoBg">
+      <video src="/assets/videos/revamped/audiocube_mobile.mp4" autoplay muted loop></video>
+    </div>
+  </section>
+
+  
+
+  <section class="panel ntwrk_spt_sec_anm">
+      <div class="container align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xs-12 col-sm-12 col-lg-6">
+
+              <!-- <div class="metapod_ntwrk_img_bg ntwrk_img_anm"></div> -->
+
+              <img class="ntwrk_img_anm network_img_mobile" alt="AudioCube - 4G Enabled" title="AudioCube - 4G Enabled" src="../assets/images/revamped/soundbox/metapod_feature.webp"/> 
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-lg-6  ntwrk_txt_cnt_anm">
+
+            <div>
+              <p class="metapodTitle textEnd"><span>4G </span>enabled.</p>
+            </div>
+            <div>
+              <p class="metapodDesc textEnd">The AudioCube by PROXGY has fast connection speed which makes sure that payments received are immediately announced even during the busiest hours.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <section class="panel darkGrayBg multi_lang_spt_sec">
+    <div class="container max_1450 align-items-center justify-content-center">
+      <div class="row align-items-center justify-content-center">
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+          <p class="metapodTitle textEnd mobileonly">Multiple Language Support.</p>
+          <div class="text-left">
+          <p class="metapodTitle multi_lang_type_anim"></p>
+          </div>
+          <div>
+            <p class="metapodDesc">With upto 24 supported languages, AudioCube enables everybody to understand it.</p>
+          </div>
+
+        </div>
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-9">
+            <div style="position: relative;">
+            <div style="position: relative;">
+            <div class="metapod_blue_bck_anim text-left"></div>
+            <div class="sptdLangImgBg spt_lang_anim text-left"></div>
+            </div>
+
+
+            <!-- <img class="metapod_blue_bck_anim" style="scale: 1.2;width: 100vw;" src="/assets/images/revamped/soundbox/metapod_blue_back.png"/>
+            <img class="spt_lang_anim" style="position: absolute;
+            left: 0;
+            top: 15%; width: 100vw;" src="/assets/images/revamped/soundbox/lang.png"/> -->
+
+
+           </div>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+<section class="panel grayBg slideBthWaysSection">
+  <div class="container container2 align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center slideBthWaysSectionMain ">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 img_sec">
+
+        <div class="ip67leftImgBg left_led_display_anm"></div>
+       
+        <!-- <div class="left_led_display_anm">
+          <img style="width: 100%;
+          scale: 2;" src="/assets/images/revamped/soundbox/metapod_led_display_.svg"/>
+        </div> -->
+
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text_sec ip_txt ip_txt_ani">
+        <div>
+          <p class="metapodTitle text-center">IP 67 rated.</p>
+        </div>
+        <div>
+          <p class="metapodDesc text-center">No matter how the conditions are, AudioCube doesn't let the work get hampered.</p>
+        </div>
+      </div>      
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+
+        <div class="ip67RightImgBg right_metapod_pink_anm"></div>
+
+
+        <!-- <div class="right_metapod_pink_anm">
+          <img style="width: 100%;scale: 2;" src="/assets/images/revamped/soundbox/metapod_pink_back.png"/>
+        </div> -->
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="panel darkGrayBg sptd_mrch_app_sec_anim">
+  <div class="container align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center">
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text_sec ">
+
+        <div>
+          <p class="metapodTitle text-left audiocube_wallet_ani">Many wallets, one solution.</p>
+        </div>
+        <div>
+          <p class="metapodDesc text-left audiocube_wallet_ani">Supports all major payment wallets.</p>
+        </div>
+        <div class="logo_icon" style="display: flex; margin-top: 15px;">
+          <div class="sptdMrchtAppBox phonepe_spt_box_anim">
+          <img style="width: 100%;" alt="Proxgy-Phonepe" title="Proxgy-Phonepe" src="/assets/images/revamped/soundbox/phonepe-logo.webp"/>
+          </div>
+          <div class="sptdMrchtAppBox gpay_spt_box_anim">
+            <img style="width: 100%;" alt="Proxgy-Google Pay" title="Proxgy-Google Pay" src="/assets/images/revamped/soundbox/google_pay-logo.webp"/>
+            </div>
+            <div class="sptdMrchtAppBox paytm_spt_box_anim">
+              <img style="width: 100%;" alt="Proxgy-PayTM" title="Proxgy-PayTM" src="/assets/images/revamped/soundbox/paytm-logo.webp"/>
+              </div>
+              <div class="sptdMrchtAppBox bharat_spt_box_anim">
+                <img style="width: 100%;" alt="Proxgy-BharatPe" title="Proxgy-BharatPe" src="/assets/images/revamped/soundbox/bharat-pe-logo.webp"/>
+                </div>
+                
+
+        </div>
+
+      </div>
+
+
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8 mt-5 img_sec">
+        <div class="sptd_lng_pink_mpd_bg"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="panel grayBg led_display_sec_anim">
+  <div class="container align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img_sec">
+
+        <div class="soundbox_display_upward_img_bg"></div>
+
+          <!-- <img style="width: 60vw;" src="/assets/images/revamped/soundbox/soundbox_led_display_upwards.png"/> -->
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-6 text_sec led_text_ani">
+
+        <div>
+          <p class="metapodTitle textEnd">LED display.</p>
+        </div>
+        <div>
+          <p class="metapodDesc textEnd">OLED display lets the users to scan the QR codes quickly even in lowlight conditions.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="panel darkGrayBg printer_sec_anim">
+
+  <div class="container align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-6 text_sec printer_option_txt_ani">
+
+        <div>
+          <p class="metapodTitle text-left">Printer option available.</p>
+        </div>
+        <div>
+          <p class="metapodDesc text-left">Add on thermal printer for printing payment receipts.</p>
+        </div>
+
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 img_sec">
+
+        <div class="soundbox_display_back_upward_img_bg"></div>
+
+
+          <!-- <img style="width: 60vw;" src="/assets/images/revamped/soundbox/thermal_printer.png"/> -->
+      </div>
+
+     
+
+    </div>
+
+    <div class="container">
+    <div
+    type="button" 
+    class=" get_design_btn_desktop"onclick="btnClick()" >
+  
+    <div id="close_btn_desktop">
+      <div class="active_btn_sec_desktop">  <span>Get the design story behind AudioCube</span>
+        <img class="img1"  src="/assets/images/revamped/plus_icon.png"/></div>
+  
+        <div class="close_btn_sec_desktop">  <span>Close</span>
+          <img class="img1"  src="/assets/images/revamped/close_icon.png"/></div>
+    </div>
+      </div>
+    </div>
+  </div>
+ 
+  
+
+  </div>
+
+
+</section>
+
+
+<section class=" grayBg design_sec_animation" id="design_story_sec_desktop" >
+  <div class="container align-items-center justify-content-center">
+    <div class="row " style="height: 100vh;">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-6 align-items-center justify-content-center text_sec">
+
+        <div>
+          <p class="metapodTitle">Designed to perfection.</p>
+        </div>
+        <div>
+          <p class="metapodDesc">Keeping in mind the needs, requirements and wants of our users, AudioCube was designed empathetically and carefully to provide the best user experience to the customer.</p>
+        </div>
+
+      </div>
+
+
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-6 img_sec" style="height: 100%;">
+          <img class="metapodDesignStoryImg" alt="Design Story - AudioCube" title="Design Story - AudioCube"  src="/assets/images/revamped/soundbox/metapod_design_story.webp"/>
+      </div>
+
+     
+    </div>
+
+  </div>
+</section>
+
+
+</div>
+    
+
+    <script src="/assets/js/audiocube.js"></script>
+
+     
+
+
+    <footer
+    class="overflow-hidden bg-[#212121] flex flex-col  text-[6px] leading-[7.31px] text-center xl:text-left text-[#f9f9f9] xl:text-sm xl:leading-[17px] gap-y-2 px-14 lg:px-20 2xl:px-44 py-4"
+  style="    background-color: rgb(33 33 33 /1);
+  color: white;
+  font-size: 14px;"
+    >
+    <div class="container-fluid pe-0 ps-0">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <p class="font-medium xl:font-regular">
+            Copyright © 2023 Everywhere as a Service Private Limited <sup>&#174</sup>. All Rights
+            Reserved
+          </p>
+          <p class="font-semibold xl:font-medium">
+            All the Logos used are registered trademarks of their respective
+            companies.
+          </p>
+        </div>
+        <div class="col-2">
+          <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+        <div class="col-2">
+          
+            <a  href="/terms-of-use">Terms & Condition</a>
+         
+        </div>
+
+        <div class="col-2">
+            <div class="footer-links">
+              <a href="https://www.facebook.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/facebook.svg" alt="Facebook"></img></a>
+              <a href="https://twitter.com/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/twitter.svg" alt="twitter"></img></a>
+              <a href="https://www.linkedin.com/company/proxgy" target="_blank" class="footer-link"><img src="/assets/icons/linkedin.svg" alt="linkedin"></img></a>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </footer>
+
+  <script>
+    function btnClick(){
+    document.getElementById('design_story_sec_desktop').classList.toggle("show_design_story_desktop");
+    document.getElementById('close_btn_desktop').classList.toggle("show_close_icon_desktop"); 
+  }
+  </script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="/dist/js/nav.js"></script>
+
+  </body>
+</html>
